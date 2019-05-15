@@ -1,0 +1,16 @@
+{
+  "Company" : {
+    "x" : 10,
+    "y" : 115,
+    "width" : 427,
+    "height" : 175,
+    "vertices" : { }
+  },
+  "Twitter" : {
+    "x" : 484,
+    "y" : 113,
+    "width" : 406,
+    "height" : 180,
+    "vertices" : { }
+  }
+}

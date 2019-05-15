@@ -1,0 +1,1320 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://www.example.com/> .
+
+ex:p8331703080  skos:prefLabel      "ruffles potato chips"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p5405693086  skos:prefLabel      "sunchips multigrain snacks"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p1233699090  skos:prefLabel      "liquid-plumr"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p4713328373  skos:prefLabel      "pillsbury"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p6898799894  skos:prefLabel      "savlon"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p6983955374  skos:prefLabel      "rice-a-roni side dishes "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p4922219341  skos:prefLabel      "scoop away litter"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p9284146007  skos:prefLabel      "barg's rootbeer"@en ;
+                ex:madeby       ex:398229765 ;
+                a               ex:product .
+
+ex:p6072349869  skos:prefLabel      "gm fruit snacks"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p49613387    skos:prefLabel      "olay"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p916387016   skos:prefLabel      "mr. clean"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p7380708160  skos:prefLabel      "larabar"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p8686617913  skos:prefLabel      "swiffer"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p1953549563  skos:prefLabel      "bengay"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p661089791   skos:prefLabel      "cheer"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p7186825761  skos:prefLabel      "fruitworks juice drinks "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p5624970859  skos:prefLabel      "doritos tortilla chips"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p8908847177  skos:prefLabel      "efferdent"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p2921443043  skos:prefLabel      "huggies"@en ;
+                ex:madeby       ex:3483673294 ;
+                a               ex:product .
+
+ex:p5773340173  skos:prefLabel      "puffs"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p5868673700  skos:prefLabel      "irish spring"@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p4833450897  skos:prefLabel      "clorox"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p1130797036  skos:prefLabel      "hamburger helper"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p9912202946  skos:prefLabel      "goodnites"@en ;
+                ex:madeby       ex:3483673294 ;
+                a               ex:product .
+
+ex:p7435488484  skos:prefLabel      "ivory"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p7568501969  skos:prefLabel      "orville redenbacher"@en ;
+                ex:madeby       ex:111494861 ;
+                a               ex:product .
+
+ex:p6291985508  skos:prefLabel      "clairol"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p8909722957  skos:prefLabel      "joy"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9438242179  skos:prefLabel      "mach3"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p4078619292  skos:prefLabel      "desitin"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p3317534789  skos:prefLabel      "gatorade"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p9167863259  skos:prefLabel      "pampers underjams"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9916104739  skos:prefLabel      "no fear motherload "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p9002521271  skos:prefLabel      "ivory"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p704162389   skos:prefLabel      "tiger"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p9173108087  skos:prefLabel      "tropicana juices"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p292215619   skos:prefLabel      "bounty"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p4010872416  skos:prefLabel      "pringles"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p5851239526  skos:prefLabel      "burt’s bees"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p6779876498  skos:prefLabel      "oral-b"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p7755272919  skos:prefLabel      "aveeno"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p4620721995  skos:prefLabel      "oomph cleaner"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p7463254223  skos:prefLabel      "ajax"@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p3394336258  skos:prefLabel      "dermassage dishwashing liquid"@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p3308883952  skos:prefLabel      "carefree"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p184133650   skos:prefLabel      "pepcid"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p369357960   skos:prefLabel      "frappuccino ready-to-drink coffee (partnership) "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p8330540484  skos:prefLabel      "lipton brisk (partnership) "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p1420461580  skos:prefLabel      "charmin"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9780178749  skos:prefLabel      "g2"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p9770726833  skos:prefLabel      "ipad3"@en ;
+                ex:madeby       ex:2194779127 ;
+                a               ex:product .
+
+ex:p1189583003  skos:prefLabel      "ensure"@en ;
+                ex:madeby       ex:4218105910 ;
+                a               ex:product .
+
+ex:p4873551251  skos:prefLabel      "vicks"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p5078034981  skos:prefLabel      "onetouch glucose monitor"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p9856645483  skos:prefLabel      "coke"@en ;
+                ex:madeby       ex:398229765 ;
+                a               ex:product .
+
+ex:p7459509421  skos:prefLabel      "refrigerated bread products"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p1997290449  skos:prefLabel      "lubriderm"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p4233060068  skos:prefLabel      "advantedge"@en ;
+                ex:madeby       ex:4218105910 ;
+                a               ex:product .
+
+ex:p1829148985  skos:prefLabel      "glucerna"@en ;
+                ex:madeby       ex:4218105910 ;
+                a               ex:product .
+
+ex:p245841105   skos:prefLabel      "kleenex"@en ;
+                ex:madeby       ex:3483673294 ;
+                a               ex:product .
+
+ex:p8097122652  skos:prefLabel      "lacoste fragrances"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p761091526   skos:prefLabel      "comet"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9051870671  skos:prefLabel      "purpose skin care"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p8197013331  skos:prefLabel      "old spice"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p8288765567  skos:prefLabel      "oral-b"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p3164532209  skos:prefLabel      "funyuns onion flavored rings"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p5099299154  skos:prefLabel      "k-y"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p8863665673  skos:prefLabel      "iams"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9641165704  skos:prefLabel      "propel"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p4420057703  skos:prefLabel      "near east side dishes "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p7555180575  skos:prefLabel      "palmolive"@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p5504980705  skos:prefLabel      "reach"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p6292454163  skos:prefLabel      "scotch brand tape"@en ;
+                ex:madeby       ex:1261834021 ;
+                a               ex:product .
+
+ex:p9312853896  skos:prefLabel      "scotchguard"@en ;
+                ex:madeby       ex:1261834021 ;
+                a               ex:product .
+
+ex:p8422060782  skos:prefLabel      "bugles"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p4249051522  skos:prefLabel      "tucks"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p8610060391  skos:prefLabel      "glad"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p8535520171  skos:prefLabel      "charmin"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p2197921802  skos:prefLabel      "mountain dew "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p7940417197  skos:prefLabel      "naomi campbell"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p2307243963  skos:prefLabel      "pepsi "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p8264018010  skos:prefLabel      "crest"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p4794679497  skos:prefLabel      "murphy oil soap"@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p6326224763  skos:prefLabel      "motrin"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p4292130621  skos:prefLabel      "nioxin"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p4503123872  skos:prefLabel      "mr. clean"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p3856689659  skos:prefLabel      "dreft laundry"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p7382154247  skos:prefLabel      "dasani"@en ;
+                ex:madeby       ex:398229765 ;
+                a               ex:product .
+
+ex:p4213775592  skos:prefLabel      "neutragena"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p815841022   skos:prefLabel      "herbal essences"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9564941099  skos:prefLabel      "vicks"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9986472666  skos:prefLabel      "similac"@en ;
+                ex:madeby       ex:4218105910 ;
+                a               ex:product .
+
+ex:p6294392338  skos:prefLabel      "sebastian professional"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p7357035644  skos:prefLabel      "listerine"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p2734890722  skos:prefLabel      "o.b."@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p2557168195  skos:prefLabel      "grandma's cookies"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p7998838589  skos:prefLabel      "complete multi-purpose solution"@en ;
+                ex:madeby       ex:4218105910 ;
+                a               ex:product .
+
+ex:p232317573   skos:prefLabel      "armorall"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p8096263237  skos:prefLabel      "ariel"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p3020840208  skos:prefLabel      "gillette"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9307291214  skos:prefLabel      "planters"@en ;
+                ex:madeby       ex:3550675753 ;
+                a               ex:product .
+
+ex:p2965372404  skos:prefLabel      "cortaid"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p1609317278  skos:prefLabel      "ept"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p4130993297  skos:prefLabel      "wella"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6182436994  skos:prefLabel      "flat earth"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p8313848691  skos:prefLabel      "häagen-dazs"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p827878650   skos:prefLabel      "splenda"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p2039596453  skos:prefLabel      "myoplex"@en ;
+                ex:madeby       ex:4218105910 ;
+                a               ex:product .
+
+ex:p6117127752  skos:prefLabel      "ambi skin care"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p9092353673  skos:prefLabel      "zoneperfect"@en ;
+                ex:madeby       ex:4218105910 ;
+                a               ex:product .
+
+ex:p2668788708  skos:prefLabel      "bowl appetit"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p5154707504  skos:prefLabel      "bacardi mixers"@en ;
+                ex:madeby       ex:398229765 ;
+                a               ex:product .
+
+ex:p5874172445  skos:prefLabel      "rouge"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p8261628766  skos:prefLabel      "quaker baking mixes "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p4286146045  skos:prefLabel      "febreze air fresheners"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6974772429  skos:prefLabel      "bounce"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p8177100177  skos:prefLabel      "gardettos"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p8673305086  skos:prefLabel      "gillette"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p2010286322  skos:prefLabel      "old el paso"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p149169675   skos:prefLabel      "braun"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p5585908642  skos:prefLabel      "duracell"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9246782730  skos:prefLabel      "sudafed"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p2681870618  skos:prefLabel      "biquick"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p2366399717  skos:prefLabel      "pediasure"@en ;
+                ex:madeby       ex:4218105910 ;
+                a               ex:product .
+
+ex:p8614375686  skos:prefLabel      "cascadian farms"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p2442207437  skos:prefLabel      "zyrtec"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p2062170769  skos:prefLabel      "bacos"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p6171677723  skos:prefLabel      "betty crocker"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p8662429018  skos:prefLabel      "roc facial"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p4155220745  skos:prefLabel      "dawn"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6560634731  skos:prefLabel      "downy"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p5750696418  skos:prefLabel      "luvs"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p8975387307  skos:prefLabel      "gold medal flour"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p3717496729  skos:prefLabel      "pampers kandoo"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p8955321634  skos:prefLabel      "puma"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p2916073233  skos:prefLabel      "naked juice"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p6520181828  skos:prefLabel      "scott"@en ;
+                ex:madeby       ex:3483673294 ;
+                a               ex:product .
+
+ex:p5473942773  skos:prefLabel      "ivory"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6090287503  skos:prefLabel      "quaker cereals"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p7578054831  skos:prefLabel      "pampers"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p4164486302  skos:prefLabel      "little swimmers"@en ;
+                ex:madeby       ex:3483673294 ;
+                a               ex:product .
+
+ex:p6295756451  skos:prefLabel      "prilosec otc"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9321520991  skos:prefLabel      "aussie"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p8344233913  skos:prefLabel      "venus"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p714110169   skos:prefLabel      "colombo yogurt"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p7259363128  skos:prefLabel      "lady speed stick"@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p3615258194  skos:prefLabel      "fixodent"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p5100203759  skos:prefLabel      "sobe"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p2791060791  skos:prefLabel      "fabuloso"@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p5299768201  skos:prefLabel      "dreft"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p3786759467  skos:prefLabel      "luvs it"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p4319669445  skos:prefLabel      "cascade"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p7454574555  skos:prefLabel      "speed stick"@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p2334502370  skos:prefLabel      "progresso"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p9902989092  skos:prefLabel      "stayfree"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p4747101209  skos:prefLabel      "head - shoulders"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p3833805472  skos:prefLabel      "tampax"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p5026835723  skos:prefLabel      "manzanita sol "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p2559876206  skos:prefLabel      "christina aguilera perfumes"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6213955777  skos:prefLabel      "fibersure"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9666437519  skos:prefLabel      "dole juices (license) "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p8491958274  skos:prefLabel      "cracker jack candy coated popcorn"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p6613712562  skos:prefLabel      "3d white"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p2153180245  skos:prefLabel      "natural instincts"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p5535204093  skos:prefLabel      "rold gold pretzels - snack mix"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p8831165862  skos:prefLabel      "bounty"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p4243656796  skos:prefLabel      "infusium 23"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p8256959209  skos:prefLabel      "stp gas treatment"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p1754405433  skos:prefLabel      "neosporin"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p8565739196  skos:prefLabel      "camay"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p8102336107  skos:prefLabel      "febreze"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p645064339   skos:prefLabel      "bebe"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p9714212630  skos:prefLabel      "frito-lay nuts"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p8218845628  skos:prefLabel      "tropicana twister juice drinks "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p79884967    skos:prefLabel      "pasta roni side dishes "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p2951423017  skos:prefLabel      "totinos"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p9584101042  skos:prefLabel      "p&g professional"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p958308500   skos:prefLabel      "max factor"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p5257702966  skos:prefLabel      "hugo boss fragrances"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p8737308740  skos:prefLabel      "nyquil"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p3585708958  skos:prefLabel      "stim-u-dent"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p1010805440  skos:prefLabel      "quaker oats"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p759789066   skos:prefLabel      "mr. clean autodry carwash"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p773537843   skos:prefLabel      "sun crystals sweetner"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p3963817268  skos:prefLabel      "canada dry"@en ;
+                ex:madeby       ex:398229765 ;
+                a               ex:product .
+
+ex:p7424805315  skos:prefLabel      "fresh step litter"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p8534163646  skos:prefLabel      "escada"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9931383313  skos:prefLabel      "teen spirit "@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p2538171442  skos:prefLabel      "aquafina "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p3963137650  skos:prefLabel      "aunt jemima mixes - syrups "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p3045763654  skos:prefLabel      "olay"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p5435588196  skos:prefLabel      "crystal white dishwashing liquid"@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p6867449909  skos:prefLabel      "depend"@en ;
+                ex:madeby       ex:3483673294 ;
+                a               ex:product .
+
+ex:p6413534387  skos:prefLabel      "green giant"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p8547803370  skos:prefLabel      "quaker oatmeal "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p8725385535  skos:prefLabel      "dreft"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p4025595107  skos:prefLabel      "muir glen"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p8215690960  skos:prefLabel      "poise"@en ;
+                ex:madeby       ex:3483673294 ;
+                a               ex:product .
+
+ex:p33677254    skos:prefLabel      "gm cereals"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p5284709343  skos:prefLabel      "camay"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p1255883953  skos:prefLabel      "visine"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p2471213083  skos:prefLabel      "tampax"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p1639997553  skos:prefLabel      "mug root beer "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p6783097472  skos:prefLabel      "truenorth"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p1054872209  skos:prefLabel      "nice n' easy"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9459178450  skos:prefLabel      "safeguard"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p5521050169  skos:prefLabel      "savorings"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p1087310787  skos:prefLabel      "clean and clear"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p5874122292  skos:prefLabel      "secret"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9636162917  skos:prefLabel      "viactiv"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p458756438   skos:prefLabel      "starbucks (partnership)"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p2881868409  skos:prefLabel      "munchos potato crisps"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p4675176557  skos:prefLabel      "dunhill fragrances"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p500792239   skos:prefLabel      "charmin"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p3317215558  skos:prefLabel      "prilosec otc"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6191943651  skos:prefLabel      "scope"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6321599412  skos:prefLabel      "fixodent"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p1424741480  skos:prefLabel      "sos cleaner"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p1003172496  skos:prefLabel      "afta® after shave "@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p8931567066  skos:prefLabel      "greenworks"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p382519533   skos:prefLabel      "duracell"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p3310641173  skos:prefLabel      "ipad hd"@en ;
+                ex:madeby       ex:2194779127 ;
+                a               ex:product .
+
+ex:p5065693781  skos:prefLabel      "pepto-bismol"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p7564193152  skos:prefLabel      "shower to shower"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p2825042231  skos:prefLabel      "swiffer"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p1131071793  skos:prefLabel      "vidal sassoon"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6844072970  skos:prefLabel      "gucci fragrances"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6483524793  skos:prefLabel      "band-aid"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p6391805661  skos:prefLabel      "tilex"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p1446641721  skos:prefLabel      "herbal essences"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6761934824  skos:prefLabel      "nestea"@en ;
+                ex:madeby       ex:398229765 ;
+                a               ex:product .
+
+ex:p5079044006  skos:prefLabel      "tide"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6159014176  skos:prefLabel      "vicks products"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p551581504   skos:prefLabel      "rembrandt"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p5768321977  skos:prefLabel      "rogaine"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p836660943   skos:prefLabel      "cottonelle"@en ;
+                ex:madeby       ex:3483673294 ;
+                a               ex:product .
+
+ex:p1207178866  skos:prefLabel      "chester's popcorn"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p7011437133  skos:prefLabel      "eukanuba"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p2030961343  skos:prefLabel      "pepto-bismol"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p926495898   skos:prefLabel      "poppycock"@en ;
+                ex:madeby       ex:111494861 ;
+                a               ex:product .
+
+ex:p7132647885  skos:prefLabel      "old spice"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p2841823553  skos:prefLabel      "old spice"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p2356233659  skos:prefLabel      "metamucil"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6631549567  skos:prefLabel      "gatorade"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p6243580503  skos:prefLabel      "dolce and gabbana"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9472459953  skos:prefLabel      "brita"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p7797972554  skos:prefLabel      "era"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p1071891452  skos:prefLabel      "jenos pizza"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p2089957508  skos:prefLabel      "benecol"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p6748425645  skos:prefLabel      "slice "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p7510456742  skos:prefLabel      "lactaid"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p7288893306  skos:prefLabel      "baken-ets fried pork skins"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p9901519794  skos:prefLabel      "dental professionals"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p8893034152  skos:prefLabel      "enrich plus"@en ;
+                ex:madeby       ex:4218105910 ;
+                a               ex:product .
+
+ex:p4421248599  skos:prefLabel      "fiber one"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p3892941749  skos:prefLabel      "yoplait"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p264722642   skos:prefLabel      "clairol"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9611447109  skos:prefLabel      "mylanta"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p6522660234  skos:prefLabel      "metamucil"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6931982552  skos:prefLabel      "ethos water (license) "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p6500816180  skos:prefLabel      "covergirl"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6130103193  skos:prefLabel      "anna sui"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9297421322  skos:prefLabel      "prestobarba/blue"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p3135551823  skos:prefLabel      "imodium"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p5034575335  skos:prefLabel      "pull-ups"@en ;
+                ex:madeby       ex:3483673294 ;
+                a               ex:product .
+
+ex:p1743328820  skos:prefLabel      "monistat"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p1561290451  skos:prefLabel      "antiperspirants - deodorants"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p3214256794  skos:prefLabel      "old spide"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9203044150  skos:prefLabel      "pantene"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p2780716892  skos:prefLabel      "acuvue"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p1745660591  skos:prefLabel      "sierra mist "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p6382708326  skos:prefLabel      "lay's potato chips"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p7172751235  skos:prefLabel      "santitas tortilla chips"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p7567673467  skos:prefLabel      "skin bracer® after shave "@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p7366585777  skos:prefLabel      "nature valley"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p600104316   skos:prefLabel      "clearblue easy"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9654615807  skos:prefLabel      "sk-ii"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p9373210495  skos:prefLabel      "hostess potato chips"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p8647099915  skos:prefLabel      "ddf"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6061015500  skos:prefLabel      "purell"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p9003277105  skos:prefLabel      "smartfood popcorn"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p9370488773  skos:prefLabel      "4-09 cleaner"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p4851122988  skos:prefLabel      "fritos corn chips"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p1537433733  skos:prefLabel      "oberto meat snacks"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p3446235973  skos:prefLabel      "ipad"@en ;
+                ex:madeby       ex:2194779127 ;
+                a               ex:product .
+
+ex:p2983609858  skos:prefLabel      "ocean spray juices and juice drinks (license) "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p7590882676  skos:prefLabel      "dolormin"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p1067008438  skos:prefLabel      "viva"@en ;
+                ex:madeby       ex:3483673294 ;
+                a               ex:product .
+
+ex:p7696606316  skos:prefLabel      "fanta"@en ;
+                ex:madeby       ex:398229765 ;
+                a               ex:product .
+
+ex:p5246974220  skos:prefLabel      "curves products"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p3237026094  skos:prefLabel      "benadryl"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p3960474176  skos:prefLabel      "braun"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p583794716   skos:prefLabel      "pine-sol"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p8893971895  skos:prefLabel      "softsoap"@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p8822993536  skos:prefLabel      "rustler's meat snacks"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p220860594   skos:prefLabel      "similac"@en ;
+                ex:madeby       ex:4218105910 ;
+                a               ex:product .
+
+ex:p9574403885  skos:prefLabel      "kv masterpiece"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p2949374777  skos:prefLabel      "cheetos cheese flavored snacks"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p2909921802  skos:prefLabel      "covergirl"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p6678305250  skos:prefLabel      "safeguard"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p1723890081  skos:prefLabel      "downy"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p3457511711  skos:prefLabel      "a-w root beer"@en ;
+                ex:madeby       ex:398229765 ;
+                a               ex:product .
+
+ex:p2549708188  skos:prefLabel      "colgate"@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p6446279673  skos:prefLabel      "rolaids"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p854567916   skos:prefLabel      "kingsford charcoal"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p6868524801  skos:prefLabel      "hill's science dog food"@en ;
+                ex:madeby       ex:891001978 ;
+                a               ex:product .
+
+ex:p744159577   skos:prefLabel      "enfamil"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p9997619629  skos:prefLabel      "mirinda "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p9823130835  skos:prefLabel      "pantene"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p7972578307  skos:prefLabel      "pedialyte"@en ;
+                ex:madeby       ex:4218105910 ;
+                a               ex:product .
+
+ex:p5921823245  skos:prefLabel      "crest"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p155943523   skos:prefLabel      "lay's stax potato crisps"@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p1248959366  skos:prefLabel      "gleem"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p5271458004  skos:prefLabel      "chex"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p1676170192  skos:prefLabel      "wanchai ferry"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p892638418   skos:prefLabel      "zest"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p1845950479  skos:prefLabel      "hidden valley"@en ;
+                ex:madeby       ex:3709842882 ;
+                a               ex:product .
+
+ex:p6422728711  skos:prefLabel      "puffs"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p7735802330  skos:prefLabel      "skin id"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p4453105095  skos:prefLabel      "pampers"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p8005164491  skos:prefLabel      "caladryl"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p192650966   skos:prefLabel      "kotex"@en ;
+                ex:madeby       ex:3483673294 ;
+                a               ex:product .
+
+ex:p1095971075  skos:prefLabel      "clearblue easy"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p7253261163  skos:prefLabel      "gain"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p2136894323  skos:prefLabel      "basic 4"@en ;
+                ex:madeby       ex:2167446090 ;
+                a               ex:product .
+
+ex:p4193742314  skos:prefLabel      "tylenol"@en ;
+                ex:madeby       ex:2581313181 ;
+                a               ex:product .
+
+ex:p7305299025  skos:prefLabel      "ivory"@en ;
+                ex:madeby       ex:2315872832 ;
+                a               ex:product .
+
+ex:p4039931149  skos:prefLabel      "amp energy drink "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .
+
+ex:p6829516289  skos:prefLabel      "dole juices and juice drinks (license) "@en ;
+                ex:madeby       ex:3486537284 ;
+                a               ex:product .

@@ -1,0 +1,175 @@
+<export><workspace name="Enrich Data"><query name="Create a Simple Test Doc" focus="true" listorder="1" taborder="1" active="true" database="13644796296441726040" server="13275658592081610841" database-name="data-hub-STAGING" server-name="data-hub-STAGING" mode="javascript">// a simple test doc to help us test the entity enrichment
+
+'use strict';
+
+declareUpdate();
+
+if (xdmp.databaseName(xdmp.database()) === 'data-hub-STAGING') {
+
+  const uri = '/tweet/test.json';
+  const doc = {
+      'tweet': {
+            'username': 'joe',
+            'tweetBody': 'Went for a run in my new Nike shoes...should have broke them in first! Now time for ice and Motrin.'
+      }
+  };
+
+  xdmp.documentInsert(uri, doc);
+
+} else {
+  'Please choose the data-hub-STAGING database and run this query again';
+}
+</query><query name="Load SKOS" focus="false" listorder="2" taborder="2" active="true" database="13644796296441726040" server="13275658592081610841" database-name="data-hub-STAGING" server-name="data-hub-STAGING" mode="javascript">/*
+  Load the SKOS ontology triples about companies and products.
+*/
+
+'use strict';
+declareUpdate();
+var sem = require("/MarkLogic/semantics");
+
+const path = '/home/cent/Desktop/hackathon-hub/data/skos/';
+const companiesFilename = 'companies.ttl';
+const productsFilename = 'products.ttl';
+
+if (xdmp.databaseName(xdmp.database()) === 'data-hub-STAGING') {
+  
+  sem.rdfLoad(path + companiesFilename, ['turtle'], null, null, ['companies']);
+
+  sem.rdfLoad(path + productsFilename, ['turtle'], null, null, ['products']);
+  
+} else {
+  'Please choose the data-hub-STAGING database and run this query again';
+}</query><query name="Create Dictionaries" focus="false" listorder="3" taborder="3" active="true" database="13644796296441726040" server="13275658592081610841" database-name="data-hub-STAGING" server-name="data-hub-STAGING" mode="javascript">/*
+  Create dictionaries from the SKOS ontology triples.
+*/
+
+'use strict';
+declareUpdate();
+const entity = require('/MarkLogic/entity');
+
+if (xdmp.databaseName(xdmp.database()) === 'data-hub-STAGING') {
+
+  entity.dictionaryInsert(
+    '/dictionaries/companies',
+    entity.skosDictionary('companies', 'en','case-insensitive')
+  ); 
+
+  entity.dictionaryInsert(
+    '/dictionaries/products',
+    entity.skosDictionary('products', 'en','case-insensitive')
+  ); 
+
+} else {
+  'Please choose the data-hub-STAGING database and run this query again';
+}</query><query name="Enrichment Test" focus="false" listorder="4" taborder="4" active="true" database="13644796296441726040" server="13275658592081610841" database-name="data-hub-STAGING" server-name="data-hub-STAGING" mode="javascript">/*
+  A simple test using cts.entityWalk() against our test document.
+  The cts.entity walk function will apply the rules defined in our dictionary and 'walk' the document to find matching terms.
+  It will then return information about the entities that were matched. 
+*/
+
+'use strict';
+
+const doc = cts.doc('/tweet/test.json');
+const companyDictionary = cts.entityDictionaryGet('/dictionaries/companies');
+const productDictionary = cts.entityDictionaryGet('/dictionaries/products');
+
+if (xdmp.databaseName(xdmp.database()) === 'data-hub-STAGING') {
+  
+  const results = [];
+
+  const companyEntities = 
+          cts.entityWalk(
+              doc,
+              function(entityType, text, normText, entityId, node, start) {
+                      results.push({
+                                type: entityType,
+                                text: text,
+                                norm: normText,
+                                id: entityId,
+                                start: start
+                      });
+              }, 
+                companyDictionary
+              );
+
+  const productEntities = 
+          cts.entityWalk(
+              doc,
+              function(entityType, text, normText, entityId, node, start) {
+                      results.push({
+                                type: entityType,
+                                text: text,
+                                norm: normText,
+                                id: entityId,
+                                start: start
+                      });
+              }, 
+                productDictionary
+              );
+
+  results;
+
+} else {
+  'Please choose the data-hub-STAGING database and run this query again';
+}</query><query name="Enriched JSON Envelope" focus="false" listorder="5" taborder="5" active="true" database="13644796296441726040" server="13275658592081610841" database-name="data-hub-STAGING" server-name="data-hub-STAGING" mode="javascript">/*
+  Here we construct an envelope and put the entity enrichment information into the header.
+  This is similar to the logic that we will implement in the harmonization flow to enrich our data in the hub.
+*/
+
+'use strict';
+
+const doc = cts.doc('/tweet/test.json');
+
+const companyDictionary = cts.entityDictionaryGet('/dictionaries/companies');
+const productDictionary = cts.entityDictionaryGet('/dictionaries/products');
+
+const results = [];
+
+if (xdmp.databaseName(xdmp.database()) === 'data-hub-STAGING') {
+  
+  const companyEntities = 
+          cts.entityWalk(
+              doc,
+              function(entityType, text, normText, entityId, node, start) {
+                      results.push({
+                                type: entityType,
+                                text: text,
+                                norm: normText,
+                                id: entityId,
+                                start: start
+                      });
+              }, 
+                companyDictionary
+              );
+
+  const productEntities = 
+          cts.entityWalk(
+              doc,
+              function(entityType, text, normText, entityId, node, start) {
+                      results.push({
+                                type: entityType,
+                                text: text,
+                                norm: normText,
+                                id: entityId,
+                                start: start
+                      });
+              }, 
+                productDictionary
+              );
+
+
+  const newDoc = {
+      "envelope": {
+            "headers": {
+                    results
+            },
+            doc  
+      }
+  };
+
+  newDoc;
+  
+} else {
+  'Please choose the data-hub-STAGING database and run this query again';
+}
+        </query></workspace></export>

@@ -1,0 +1,7 @@
+Teams: https://bit.ly/30kaa30 
+Submit team names to Trinh Lieu
+
+MarkLogic Server v9.0-9: http://developer.marklogic.com/products
+
+Data Hub Framework v4.3: https://github.com/marklogic/marklogic-data-hub/releases/tag/v4.3.1
+

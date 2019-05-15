@@ -1,0 +1,67 @@
+buildscript {
+  repositories {
+    maven {url 'http://developer.marklogic.com/maven2/'}
+  }
+}
+
+plugins {
+    id 'java'
+    id 'eclipse'
+    id 'idea'
+
+    // This plugin allows you to create different environments
+    // for your gradle deploy. Each environment is represented
+    // by a gradle-${env}.properties file
+    // See https://github.com/stevesaliman/gradle-properties-plugin
+    // specify the env on the command line with:
+    // gradle -PenvironmentName=x ...
+    id 'net.saliman.properties' version '1.4.6'
+
+    // This gradle plugin extends the ml-gradle plugin with
+    // commands that make the Data Hub Framework do its magic
+    id 'com.marklogic.ml-data-hub' version '4.3.1'
+    
+    id "org.tenne.rest" version "0.4.2"
+}
+
+repositories {
+    jcenter()
+    maven {url 'http://developer.marklogic.com/maven2/'}
+}
+
+configurations {
+    mlcp
+}
+
+dependencies {
+    // this allows you to write custom java code that depends
+    // on the Data Hub Framework library
+    compile 'com.marklogic:marklogic-data-hub:4.3.1'
+    compile 'com.marklogic:marklogic-xcc:9.0.7'
+    mlcp "com.marklogic:mlcp:9.0.9"
+    
+    mlcp files("lib")
+}
+
+task mlcpImport(
+    type: com.marklogic.gradle.task.MlcpTask
+) {
+    description 'Run MLCP. Pass option file.'
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    host = mlHost
+    port = mlStagingPort.toInteger()
+    args = [
+      '-options_file', mlcpOptionsFile,
+      '-username', mlUsername,
+      '-password', mlPassword
+    ]
+}
+
+task createDictionaries(type: org._10ne.gradle.rest.RestTask) {
+  httpMethod = 'put'
+  uri = 'http://' + mlHost + ':' + mlStagingPort + '/v1/resources/createDictionary'
+  username = mlUsername
+  password = mlPassword
+  responseHandler = {}
+}

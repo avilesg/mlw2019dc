@@ -1,0 +1,1010 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ex: <http://www.example.com/> .
+
+
+ex:45685215 rdf:type ex:company ; 
+    skos:prefLabel "alcoa"@en . 
+ex:587093281 rdf:type ex:company ; 
+    skos:prefLabel "fidelity national information services"@en . 
+ex:2834045244 rdf:type ex:company ; 
+    skos:prefLabel "pacific life"@en . 
+ex:2478014540 rdf:type ex:company ; 
+    skos:prefLabel "suntrust banks"@en . 
+ex:3987205431 rdf:type ex:company ; 
+    skos:prefLabel "lkq"@en . 
+ex:1488152826 rdf:type ex:company ; 
+    skos:prefLabel "borgwarner"@en . 
+ex:899463344 rdf:type ex:company ; 
+    skos:prefLabel "ball"@en . 
+ex:3258750079 rdf:type ex:company ; 
+    skos:prefLabel "cst brands"@en . 
+ex:3568146463 rdf:type ex:company ; 
+    skos:prefLabel "public service enterprise group"@en . 
+ex:1491166322 rdf:type ex:company ; 
+    skos:prefLabel "eastman chemical"@en . 
+ex:3422319274 rdf:type ex:company ; 
+    skos:prefLabel "ebay"@en . 
+ex:323099980 rdf:type ex:company ; 
+    skos:prefLabel "mohawk industries"@en . 
+ex:3188272503 rdf:type ex:company ; 
+    skos:prefLabel "oneok"@en . 
+ex:879149945 rdf:type ex:company ; 
+    skos:prefLabel "frontier communications"@en . 
+ex:1713964143 rdf:type ex:company ; 
+    skos:prefLabel "netflix"@en . 
+ex:817599268 rdf:type ex:company ; 
+    skos:prefLabel "american family insurance group"@en . 
+ex:3998190521 rdf:type ex:company ; 
+    skos:prefLabel "thrivent financial for lutherans"@en . 
+ex:3253573165 rdf:type ex:company ; 
+    skos:prefLabel "expedia"@en . 
+ex:232624700 rdf:type ex:company ; 
+    skos:prefLabel "lithia motors"@en . 
+ex:3143500908 rdf:type ex:company ; 
+    skos:prefLabel "avis budget group"@en . 
+ex:2637954729 rdf:type ex:company ; 
+    skos:prefLabel "reliance steel & aluminum"@en . 
+ex:2027827299 rdf:type ex:company ; 
+    skos:prefLabel "gamestop"@en . 
+ex:427046097 rdf:type ex:company ; 
+    skos:prefLabel "tenneco"@en . 
+ex:2231487871 rdf:type ex:company ; 
+    skos:prefLabel "o'reilly automotive"@en . 
+ex:4021726754 rdf:type ex:company ; 
+    skos:prefLabel "peter kiewit sons'"@en . 
+ex:187037590 rdf:type ex:company ; 
+    skos:prefLabel "united natural foods"@en . 
+ex:3968039341 rdf:type ex:company ; 
+    skos:prefLabel "salesforce.com"@en . 
+ex:1909489293 rdf:type ex:company ; 
+    skos:prefLabel "boston scientific"@en . 
+ex:187054055 rdf:type ex:company ; 
+    skos:prefLabel "newmont mining"@en . 
+ex:3034082568 rdf:type ex:company ; 
+    skos:prefLabel "genworth financial"@en . 
+ex:687010566 rdf:type ex:company ; 
+    skos:prefLabel "live nation entertainment"@en . 
+ex:3649908390 rdf:type ex:company ; 
+    skos:prefLabel "veritiv"@en . 
+ex:137750232 rdf:type ex:company ; 
+    skos:prefLabel "news corp."@en . 
+ex:1907010710 rdf:type ex:company ; 
+    skos:prefLabel "crown holdings"@en . 
+ex:3214556361 rdf:type ex:company ; 
+    skos:prefLabel "global partners"@en . 
+ex:1167907215 rdf:type ex:company ; 
+    skos:prefLabel "pvh"@en . 
+ex:1951113785 rdf:type ex:company ; 
+    skos:prefLabel "level 3 communications"@en . 
+ex:4215479721 rdf:type ex:company ; 
+    skos:prefLabel "navistar international"@en . 
+ex:3127396992 rdf:type ex:company ; 
+    skos:prefLabel "univar"@en . 
+ex:846214022 rdf:type ex:company ; 
+    skos:prefLabel "campbell soup"@en . 
+ex:1576903150 rdf:type ex:company ; 
+    skos:prefLabel "dick's sporting goods"@en . 
+ex:2031646056 rdf:type ex:company ; 
+    skos:prefLabel "weyerhaeuser"@en . 
+ex:778747800 rdf:type ex:company ; 
+    skos:prefLabel "mutual of omaha insurance"@en . 
+ex:2548771873 rdf:type ex:company ; 
+    skos:prefLabel "chesapeake energy"@en . 
+ex:4207003365 rdf:type ex:company ; 
+    skos:prefLabel "anadarko petroleum"@en . 
+ex:3899186325 rdf:type ex:company ; 
+    skos:prefLabel "interpublic group"@en . 
+ex:900495194 rdf:type ex:company ; 
+    skos:prefLabel "j.m. smucker"@en . 
+ex:3438021382 rdf:type ex:company ; 
+    skos:prefLabel "steel dynamics"@en . 
+ex:1129256671 rdf:type ex:company ; 
+    skos:prefLabel "foot locker"@en . 
+ex:1008228455 rdf:type ex:company ; 
+    skos:prefLabel "western refining"@en . 
+ex:994366062 rdf:type ex:company ; 
+    skos:prefLabel "spartannash"@en . 
+ex:3749373196 rdf:type ex:company ; 
+    skos:prefLabel "dean foods"@en . 
+ex:2384933759 rdf:type ex:company ; 
+    skos:prefLabel "zimmer biomet holdings"@en . 
+ex:384386024 rdf:type ex:company ; 
+    skos:prefLabel "pultegroup"@en . 
+ex:4268616232 rdf:type ex:company ; 
+    skos:prefLabel "w.r. berkley"@en . 
+ex:3835587657 rdf:type ex:company ; 
+    skos:prefLabel "quanta services"@en . 
+ex:2035563023 rdf:type ex:company ; 
+    skos:prefLabel "eog resources"@en . 
+ex:1246885827 rdf:type ex:company ; 
+    skos:prefLabel "charles schwab"@en . 
+ex:1201647554 rdf:type ex:company ; 
+    skos:prefLabel "eversource energy"@en . 
+ex:1846621286 rdf:type ex:company ; 
+    skos:prefLabel "anixter international"@en . 
+ex:4137912020 rdf:type ex:company ; 
+    skos:prefLabel "emcor group"@en . 
+ex:2970119686 rdf:type ex:company ; 
+    skos:prefLabel "assurant"@en . 
+ex:3100763426 rdf:type ex:company ; 
+    skos:prefLabel "centerpoint energy"@en . 
+ex:2490001412 rdf:type ex:company ; 
+    skos:prefLabel "harris"@en . 
+ex:3390337810 rdf:type ex:company ; 
+    skos:prefLabel "hd supply holdings"@en . 
+ex:3686424197 rdf:type ex:company ; 
+    skos:prefLabel "ppl"@en . 
+ex:1307178675 rdf:type ex:company ; 
+    skos:prefLabel "quest diagnostics"@en . 
+ex:2689891327 rdf:type ex:company ; 
+    skos:prefLabel "williams"@en . 
+ex:2183285765 rdf:type ex:company ; 
+    skos:prefLabel "wec energy group"@en . 
+ex:2124960587 rdf:type ex:company ; 
+    skos:prefLabel "hershey"@en . 
+ex:491043733 rdf:type ex:company ; 
+    skos:prefLabel "agco"@en . 
+ex:3152336481 rdf:type ex:company ; 
+    skos:prefLabel "ralph lauren"@en . 
+ex:3018491598 rdf:type ex:company ; 
+    skos:prefLabel "masco"@en . 
+ex:1970289810 rdf:type ex:company ; 
+    skos:prefLabel "wesco international"@en . 
+ex:3168332543 rdf:type ex:company ; 
+    skos:prefLabel "lifepoint health"@en . 
+ex:3707390938 rdf:type ex:company ; 
+    skos:prefLabel "national oilwell varco"@en . 
+ex:749839551 rdf:type ex:company ; 
+    skos:prefLabel "kindred healthcare"@en . 
+ex:2924092101 rdf:type ex:company ; 
+    skos:prefLabel "mosaic"@en . 
+ex:2673346930 rdf:type ex:company ; 
+    skos:prefLabel "alliance data systems"@en . 
+ex:760841365 rdf:type ex:company ; 
+    skos:prefLabel "computer sciences corporation"@en . 
+ex:3350106421 rdf:type ex:company ; 
+    skos:prefLabel "huntington ingalls industries"@en . 
+ex:2815248841 rdf:type ex:company ; 
+    skos:prefLabel "leidos holdings"@en . 
+ex:2513524837 rdf:type ex:company ; 
+    skos:prefLabel "erie insurance group"@en ; 
+    skos:altLabel "erie insurance"@en .
+ex:1811586074 rdf:type ex:company ; 
+    skos:prefLabel "tesla"@en . 
+ex:619398 rdf:type ex:company ; 
+    skos:prefLabel "ascena retail group"@en . 
+ex:793604985 rdf:type ex:company ; 
+    skos:prefLabel "darden restaurants"@en . 
+ex:3044707660 rdf:type ex:company ; 
+    skos:prefLabel "harman international industries"@en . 
+ex:1536261012 rdf:type ex:company ; 
+    skos:prefLabel "nvidia"@en . 
+ex:540622572 rdf:type ex:company ; 
+    skos:prefLabel "r.r. donnelley & sons"@en . 
+ex:1520515994 rdf:type ex:company ; 
+    skos:prefLabel "fifth third bancorp"@en . 
+ex:2677845973 rdf:type ex:company ; 
+    skos:prefLabel "quintiles transnational holdings"@en . 
+ex:357345454 rdf:type ex:company ; 
+    skos:prefLabel "jones lang lasalle"@en . 
+ex:1739534489 rdf:type ex:company ; 
+    skos:prefLabel "dover"@en . 
+ex:3385348733 rdf:type ex:company ; 
+    skos:prefLabel "spirit aerosystems holdings"@en . 
+ex:2581363458 rdf:type ex:company ; 
+    skos:prefLabel "ryder system"@en . 
+ex:2659128718 rdf:type ex:company ; 
+    skos:prefLabel "a-mark precious metals"@en . 
+ex:3028424799 rdf:type ex:company ; 
+    skos:prefLabel "tractor supply"@en . 
+ex:3652499233 rdf:type ex:company ; 
+    skos:prefLabel "sealed air"@en . 
+ex:4042714969 rdf:type ex:company ; 
+    skos:prefLabel "auto-owners insurance"@en . 
+ex:1175990151 rdf:type ex:company ; 
+    skos:prefLabel "yum china holdings"@en . 
+ex:1651866135 rdf:type ex:company ; 
+    skos:prefLabel "ford motor"@en . 
+ex:2573286701 rdf:type ex:company ; 
+    skos:prefLabel "amerisourcebergen"@en . 
+ex:1501576888 rdf:type ex:company ; 
+    skos:prefLabel "amazon.com"@en . 
+ex:1998043642 rdf:type ex:company ; 
+    skos:prefLabel "general electric"@en . 
+ex:2381352365 rdf:type ex:company ; 
+    skos:prefLabel "verizon communications"@en . 
+ex:901093669 rdf:type ex:company ; 
+    skos:prefLabel "cardinal health"@en . 
+ex:1007171806 rdf:type ex:company ; 
+    skos:prefLabel "costco"@en . 
+ex:1111420275 rdf:type ex:company ; 
+    skos:prefLabel "walgreens boots alliance"@en . 
+ex:835694403 rdf:type ex:company ; 
+    skos:prefLabel "kroger"@en . 
+ex:2965385206 rdf:type ex:company ; 
+    skos:prefLabel "chevron"@en . 
+ex:2034343071 rdf:type ex:company ; 
+    skos:prefLabel "fannie mae"@en . 
+ex:1757767001 rdf:type ex:company ; 
+    skos:prefLabel "j.p. morgan chase"@en . 
+ex:2266681582 rdf:type ex:company ; 
+    skos:prefLabel "express scripts holding"@en . 
+ex:3253983924 rdf:type ex:company ; 
+    skos:prefLabel "home depot"@en . 
+ex:1840150405 rdf:type ex:company ; 
+    skos:prefLabel "boeing"@en . 
+ex:3822995701 rdf:type ex:company ; 
+    skos:prefLabel "wells fargo"@en . 
+ex:552488652 rdf:type ex:company ; 
+    skos:prefLabel "bank of america corp."@en . 
+ex:1751077348 rdf:type ex:company ; 
+    skos:prefLabel "alphabet"@en . 
+ex:1904594307 rdf:type ex:company ; 
+    skos:prefLabel "microsoft"@en . 
+ex:3411801174 rdf:type ex:company ; 
+    skos:prefLabel "anthem"@en . 
+ex:4223962709 rdf:type ex:company ; 
+    skos:prefLabel "citigroup"@en . 
+ex:1367090745 rdf:type ex:company ; 
+    skos:prefLabel "comcast"@en . 
+ex:873568637 rdf:type ex:company ; 
+    skos:prefLabel "ibm"@en . 
+ex:4206295137 rdf:type ex:company ; 
+    skos:prefLabel "state farm insurance cos."@en . 
+ex:1834131956 rdf:type ex:company ; 
+    skos:prefLabel "phillips 66"@en . 
+ex:2581313181 rdf:type ex:company ; 
+    skos:prefLabel "johnson & johnson"@en . 
+ex:2315872832 rdf:type ex:company ; 
+    skos:prefLabel "procter & gamble"@en . 
+ex:2983573010 rdf:type ex:company ; 
+    skos:prefLabel "valero energy"@en . 
+ex:1465433430 rdf:type ex:company ; 
+    skos:prefLabel "target"@en . 
+ex:3358419133 rdf:type ex:company ; 
+    skos:prefLabel "freddie mac"@en . 
+ex:2684987298 rdf:type ex:company ; 
+    skos:prefLabel "lowe's"@en . 
+ex:1108330624 rdf:type ex:company ; 
+    skos:prefLabel "dell technologies"@en . 
+ex:3781480577 rdf:type ex:company ; 
+    skos:prefLabel "metlife"@en . 
+ex:2670006382 rdf:type ex:company ; 
+    skos:prefLabel "aetna"@en . 
+ex:3486537284 rdf:type ex:company ; 
+    skos:prefLabel "pepsico"@en . 
+ex:3320916333 rdf:type ex:company ; 
+    skos:prefLabel "archer daniels midland"@en . 
+ex:2137512745 rdf:type ex:company ; 
+    skos:prefLabel "ups"@en . 
+ex:1091761731 rdf:type ex:company ; 
+    skos:prefLabel "intel"@en . 
+ex:1104267316 rdf:type ex:company ; 
+    skos:prefLabel "prudential financial"@en . 
+ex:736672947 rdf:type ex:company ; 
+    skos:prefLabel "albertsons cos."@en . 
+ex:3818212426 rdf:type ex:company ; 
+    skos:prefLabel "united technologies"@en . 
+ex:1902581132 rdf:type ex:company ; 
+    skos:prefLabel "marathon petroleum"@en . 
+ex:2384041763 rdf:type ex:company ; 
+    skos:prefLabel "disney"@en . 
+ex:208536699 rdf:type ex:company ; 
+    skos:prefLabel "humana"@en . 
+ex:3348179411 rdf:type ex:company ; 
+    skos:prefLabel "pfizer"@en . 
+ex:4288655986 rdf:type ex:company ; 
+    skos:prefLabel "aig"@en . 
+ex:3263368565 rdf:type ex:company ; 
+    skos:prefLabel "lockheed martin"@en . 
+ex:3191007888 rdf:type ex:company ; 
+    skos:prefLabel "sysco"@en . 
+ex:921713001 rdf:type ex:company ; 
+    skos:prefLabel "fedex"@en . 
+ex:2990364707 rdf:type ex:company ; 
+    skos:prefLabel "hewlett packard enterprise"@en . 
+ex:2529508796 rdf:type ex:company ; 
+    skos:prefLabel "cisco systems"@en . 
+ex:2515051007 rdf:type ex:company ; 
+    skos:prefLabel "hp"@en . 
+ex:455525113 rdf:type ex:company ; 
+    skos:prefLabel "dow chemical"@en . 
+ex:365794341 rdf:type ex:company ; 
+    skos:prefLabel "hca holdings"@en . 
+ex:398229765 rdf:type ex:company ; 
+    skos:prefLabel "coca-cola"@en . 
+ex:1028925234 rdf:type ex:company ; 
+    skos:prefLabel "new york life insurance"@en . 
+ex:3525372965 rdf:type ex:company ; 
+    skos:prefLabel "centene"@en . 
+ex:1079655469 rdf:type ex:company ; 
+    skos:prefLabel "american airlines group"@en . 
+ex:2698669645 rdf:type ex:company ; 
+    skos:prefLabel "nationwide"@en . 
+ex:2442932607 rdf:type ex:company ; 
+    skos:prefLabel "merck"@en . 
+ex:1868648117 rdf:type ex:company ; 
+    skos:prefLabel "cigna"@en . 
+ex:875579912 rdf:type ex:company ; 
+    skos:prefLabel "delta air lines"@en . 
+ex:1738964029 rdf:type ex:company ; 
+    skos:prefLabel "best buy"@en . 
+ex:1984135346 rdf:type ex:company ; 
+    skos:prefLabel "honeywell international"@en . 
+ex:1368662996 rdf:type ex:company ; 
+    skos:prefLabel "caterpillar"@en . 
+ex:1544666425 rdf:type ex:company ; 
+    skos:prefLabel "liberty mutual insurance group"@en . 
+ex:958060105 rdf:type ex:company ; 
+    skos:prefLabel "morgan stanley"@en . 
+ex:2329013105 rdf:type ex:company ; 
+    skos:prefLabel "massachusetts mutual life insurance"@en . 
+ex:4214358960 rdf:type ex:company ; 
+    skos:prefLabel "goldman sachs group"@en . 
+ex:4268792701 rdf:type ex:company ; 
+    skos:prefLabel "energy transfer equity"@en . 
+ex:3789081010 rdf:type ex:company ; 
+    skos:prefLabel "tiaa"@en . 
+ex:1041649273 rdf:type ex:company ; 
+    skos:prefLabel "oracle"@en . 
+ex:3585307063 rdf:type ex:company ; 
+    skos:prefLabel "tyson foods"@en . 
+ex:3633065067 rdf:type ex:company ; 
+    skos:prefLabel "united continental holdings"@en . 
+ex:1529774591 rdf:type ex:company ; 
+    skos:prefLabel "allstate"@en . 
+ex:233206559 rdf:type ex:company ; 
+    skos:prefLabel "publix super markets"@en . 
+ex:578017151 rdf:type ex:company ; 
+    skos:prefLabel "american express"@en . 
+ex:2425997711 rdf:type ex:company ; 
+    skos:prefLabel "tjx"@en . 
+ex:22193266 rdf:type ex:company ; 
+    skos:prefLabel "nike"@en . 
+ex:3105942558 rdf:type ex:company ; 
+    skos:prefLabel "exelon"@en . 
+ex:3251665955 rdf:type ex:company ; 
+    skos:prefLabel "general dynamics"@en . 
+ex:2625055387 rdf:type ex:company ; 
+    skos:prefLabel "rite aid"@en . 
+ex:1307383968 rdf:type ex:company ; 
+    skos:prefLabel "gilead sciences"@en . 
+ex:2216672195 rdf:type ex:company ; 
+    skos:prefLabel "chs"@en . 
+ex:1261834021 rdf:type ex:company ; 
+    skos:prefLabel "3m"@en . 
+ex:1803399691 rdf:type ex:company ; 
+    skos:prefLabel "time warner"@en . 
+ex:431791445 rdf:type ex:company ; 
+    skos:prefLabel "charter communications"@en . 
+ex:951955858 rdf:type ex:company ; 
+    skos:prefLabel "northwestern mutual"@en . 
+ex:1173716529 rdf:type ex:company ; 
+    skos:prefLabel "facebook"@en . 
+ex:2262653988 rdf:type ex:company ; 
+    skos:prefLabel "travelers cos."@en . 
+ex:33791401 rdf:type ex:company ; 
+    skos:prefLabel "walmart"@en . 
+ex:2021086831 rdf:type ex:company ; 
+    skos:prefLabel "berkshire hathaway"@en . 
+ex:2194779127 rdf:type ex:company ; 
+    skos:prefLabel "apple"@en . 
+ex:1512604250 rdf:type ex:company ; 
+    skos:prefLabel "exxon mobil"@en . 
+ex:3583089264 rdf:type ex:company ; 
+    skos:prefLabel "mckesson"@en . 
+ex:1004837713 rdf:type ex:company ; 
+    skos:prefLabel "unitedhealth group"@en . 
+ex:1917550259 rdf:type ex:company ; 
+    skos:prefLabel "cvs health"@en . 
+ex:2531796401 rdf:type ex:company ; 
+    skos:prefLabel "general motors"@en . 
+ex:332450614 rdf:type ex:company ; 
+    skos:prefLabel "at&t"@en . 
+ex:3004507487 rdf:type ex:company ; 
+    skos:prefLabel "abm industries"@en . 
+ex:1666568269 rdf:type ex:company ; 
+    skos:prefLabel "textron"@en . 
+ex:854262 rdf:type ex:company ; 
+    skos:prefLabel "waste management"@en . 
+ex:3673309994 rdf:type ex:company ; 
+    skos:prefLabel "illinois tool works"@en . 
+ex:2468591143 rdf:type ex:company ; 
+    skos:prefLabel "office depot"@en . 
+ex:2931456592 rdf:type ex:company ; 
+    skos:prefLabel "monsanto"@en . 
+ex:2694918324 rdf:type ex:company ; 
+    skos:prefLabel "cognizant technology solutions"@en . 
+ex:1298628196 rdf:type ex:company ; 
+    skos:prefLabel "texas instruments"@en . 
+ex:706929268 rdf:type ex:company ; 
+    skos:prefLabel "lincoln national"@en . 
+ex:10164058 rdf:type ex:company ; 
+    skos:prefLabel "newell brands"@en . 
+ex:2755438880 rdf:type ex:company ; 
+    skos:prefLabel "land o'lakes"@en . 
+ex:181313572 rdf:type ex:company ; 
+    skos:prefLabel "marsh & mclennan"@en . 
+ex:71719059 rdf:type ex:company ; 
+    skos:prefLabel "ecolab"@en . 
+ex:4234118333 rdf:type ex:company ; 
+    skos:prefLabel "c.h. robinson worldwide"@en . 
+ex:2715840963 rdf:type ex:company ; 
+    skos:prefLabel "loews"@en . 
+ex:4149898974 rdf:type ex:company ; 
+    skos:prefLabel "cbre group"@en . 
+ex:1912435486 rdf:type ex:company ; 
+    skos:prefLabel "kinder morgan"@en . 
+ex:959288612 rdf:type ex:company ; 
+    skos:prefLabel "kellogg"@en . 
+ex:2901042583 rdf:type ex:company ; 
+    skos:prefLabel "western digital"@en . 
+ex:1939027219 rdf:type ex:company ; 
+    skos:prefLabel "guardian life ins. co. of america"@en . 
+ex:3089896860 rdf:type ex:company ; 
+    skos:prefLabel "ross stores"@en . 
+ex:1177785263 rdf:type ex:company ; 
+    skos:prefLabel "l brands"@en . 
+ex:1284197263 rdf:type ex:company ; 
+    skos:prefLabel "j.c. penney"@en . 
+ex:1975446878 rdf:type ex:company ; 
+    skos:prefLabel "farmers insurance exchange"@en . 
+ex:4118980037 rdf:type ex:company ; 
+    skos:prefLabel "reynolds american"@en . 
+ex:3654850876 rdf:type ex:company ; 
+    skos:prefLabel "viacom"@en . 
+ex:4260973284 rdf:type ex:company ; 
+    skos:prefLabel "becton dickinson"@en . 
+ex:3722425799 rdf:type ex:company ; 
+    skos:prefLabel "micron technology"@en . 
+ex:2926536642 rdf:type ex:company ; 
+    skos:prefLabel "principal financial"@en . 
+ex:2873891598 rdf:type ex:company ; 
+    skos:prefLabel "arconic"@en . 
+ex:339685594 rdf:type ex:company ; 
+    skos:prefLabel "nrg energy"@en . 
+ex:2354810535 rdf:type ex:company ; 
+    skos:prefLabel "vf"@en . 
+ex:2200209243 rdf:type ex:company ; 
+    skos:prefLabel "devon energy"@en . 
+ex:2567878807 rdf:type ex:company ; 
+    skos:prefLabel "d.r. horton"@en . 
+ex:3361119610 rdf:type ex:company ; 
+    skos:prefLabel "bed bath & beyond"@en . 
+ex:866987540 rdf:type ex:company ; 
+    skos:prefLabel "consolidated edison"@en . 
+ex:3168623233 rdf:type ex:company ; 
+    skos:prefLabel "edison international"@en . 
+ex:3666718508 rdf:type ex:company ; 
+    skos:prefLabel "sherwin-williams"@en . 
+ex:977183707 rdf:type ex:company ; 
+    skos:prefLabel "ngl energy partners"@en . 
+ex:31258089 rdf:type ex:company ; 
+    skos:prefLabel "dominion resources"@en . 
+ex:3881906213 rdf:type ex:company ; 
+    skos:prefLabel "ameriprise financial"@en . 
+ex:748550300 rdf:type ex:company ; 
+    skos:prefLabel "adp"@en . 
+ex:2181441478 rdf:type ex:company ; 
+    skos:prefLabel "hilton worldwide holdings"@en . 
+ex:4056046685 rdf:type ex:company ; 
+    skos:prefLabel "first data"@en . 
+ex:1828238533 rdf:type ex:company ; 
+    skos:prefLabel "henry schein"@en . 
+ex:2200338698 rdf:type ex:company ; 
+    skos:prefLabel "toys r us"@en . 
+ex:3947635997 rdf:type ex:company ; 
+    skos:prefLabel "bb&t corp."@en . 
+ex:215154256 rdf:type ex:company ; 
+    skos:prefLabel "reinsurance group of america"@en . 
+ex:1675101971 rdf:type ex:company ; 
+    skos:prefLabel "core-mark holding"@en . 
+ex:2806127695 rdf:type ex:company ; 
+    skos:prefLabel "biogen"@en . 
+ex:3884494210 rdf:type ex:company ; 
+    skos:prefLabel "las vegas sands"@en . 
+ex:2531091704 rdf:type ex:company ; 
+    skos:prefLabel "stanley black & decker"@en . 
+ex:3343338104 rdf:type ex:company ; 
+    skos:prefLabel "parker-hannifin"@en . 
+ex:2718602913 rdf:type ex:company ; 
+    skos:prefLabel "stryker"@en . 
+ex:3643106180 rdf:type ex:company ; 
+    skos:prefLabel "estee lauder"@en . 
+ex:1302989610 rdf:type ex:company ; 
+    skos:prefLabel "celgene"@en . 
+ex:1209735741 rdf:type ex:company ; 
+    skos:prefLabel "blackrock"@en . 
+ex:1070617627 rdf:type ex:company ; 
+    skos:prefLabel "xcel energy"@en . 
+ex:3517006433 rdf:type ex:company ; 
+    skos:prefLabel "csx"@en . 
+ex:767662623 rdf:type ex:company ; 
+    skos:prefLabel "unum group"@en . 
+ex:2907419553 rdf:type ex:company ; 
+    skos:prefLabel "jacobs engineering group"@en . 
+ex:2245410517 rdf:type ex:company ; 
+    skos:prefLabel "lennar"@en . 
+ex:2110078690 rdf:type ex:company ; 
+    skos:prefLabel "group 1 automotive"@en . 
+ex:414505993 rdf:type ex:company ; 
+    skos:prefLabel "leucadia national"@en . 
+ex:1887760359 rdf:type ex:company ; 
+    skos:prefLabel "entergy"@en . 
+ex:3337736836 rdf:type ex:company ; 
+    skos:prefLabel "paypal holdings"@en . 
+ex:1449771104 rdf:type ex:company ; 
+    skos:prefLabel "applied materials"@en . 
+ex:3030311733 rdf:type ex:company ; 
+    skos:prefLabel "voya financial"@en . 
+ex:1188186821 rdf:type ex:company ; 
+    skos:prefLabel "mastercard"@en . 
+ex:3862193669 rdf:type ex:company ; 
+    skos:prefLabel "priceline group"@en . 
+ex:3792527072 rdf:type ex:company ; 
+    skos:prefLabel "liberty interactive"@en . 
+ex:2522179356 rdf:type ex:company ; 
+    skos:prefLabel "autozone"@en . 
+ex:2180632241 rdf:type ex:company ; 
+    skos:prefLabel "state street corp."@en . 
+ex:3979841084 rdf:type ex:company ; 
+    skos:prefLabel "dte energy"@en . 
+ex:2613566204 rdf:type ex:company ; 
+    skos:prefLabel "l-3 communications"@en . 
+ex:3911048370 rdf:type ex:company ; 
+    skos:prefLabel "hollyfrontier"@en . 
+ex:919356544 rdf:type ex:company ; 
+    skos:prefLabel "praxair"@en . 
+ex:2859650180 rdf:type ex:company ; 
+    skos:prefLabel "universal health services"@en . 
+ex:2037778501 rdf:type ex:company ; 
+    skos:prefLabel "discover financial services"@en . 
+ex:3770179134 rdf:type ex:company ; 
+    skos:prefLabel "occidental petroleum"@en . 
+ex:1202664375 rdf:type ex:company ; 
+    skos:prefLabel "united states steel"@en . 
+ex:2731080197 rdf:type ex:company ; 
+    skos:prefLabel "sempra energy"@en . 
+ex:2209456977 rdf:type ex:company ; 
+    skos:prefLabel "baxter international"@en . 
+ex:3445790950 rdf:type ex:company ; 
+    skos:prefLabel "w.w. grainger"@en . 
+ex:2788648879 rdf:type ex:company ; 
+    skos:prefLabel "autoliv"@en . 
+ex:298186084 rdf:type ex:company ; 
+    skos:prefLabel "norfolk southern"@en . 
+ex:45634132 rdf:type ex:company ; 
+    skos:prefLabel "baker hughes"@en . 
+ex:862586166 rdf:type ex:company ; 
+    skos:prefLabel "ally financial"@en . 
+ex:1950133574 rdf:type ex:company ; 
+    skos:prefLabel "sonic automotive"@en . 
+ex:1124920724 rdf:type ex:company ; 
+    skos:prefLabel "owens & minor"@en . 
+ex:279340397 rdf:type ex:company ; 
+    skos:prefLabel "huntsman"@en . 
+ex:2559473163 rdf:type ex:company ; 
+    skos:prefLabel "laboratory corp. of america"@en . 
+ex:3271939837 rdf:type ex:company ; 
+    skos:prefLabel "murphy usa"@en . 
+ex:2200150690 rdf:type ex:company ; 
+    skos:prefLabel "advance auto parts"@en . 
+ex:3142084500 rdf:type ex:company ; 
+    skos:prefLabel "fidelity national financial"@en . 
+ex:2476271478 rdf:type ex:company ; 
+    skos:prefLabel "air products & chemicals"@en . 
+ex:3805979609 rdf:type ex:company ; 
+    skos:prefLabel "hormel foods"@en . 
+ex:2291156145 rdf:type ex:company ; 
+    skos:prefLabel "hertz global holdings"@en . 
+ex:24822598 rdf:type ex:company ; 
+    skos:prefLabel "mgm resorts international"@en . 
+ex:3107487823 rdf:type ex:company ; 
+    skos:prefLabel "corning"@en . 
+ex:3825580015 rdf:type ex:company ; 
+    skos:prefLabel "republic services"@en . 
+ex:3023116971 rdf:type ex:company ; 
+    skos:prefLabel "calpine"@en . 
+ex:658660185 rdf:type ex:company ; 
+    skos:prefLabel "owens-illinois"@en . 
+ex:3663140325 rdf:type ex:company ; 
+    skos:prefLabel "targa resources"@en . 
+ex:2593081792 rdf:type ex:company ; 
+    skos:prefLabel "jetblue airways"@en . 
+ex:994773073 rdf:type ex:company ; 
+    skos:prefLabel "jones financial"@en . 
+ex:3310484419 rdf:type ex:company ; 
+    skos:prefLabel "franklin resources"@en . 
+ex:1999728444 rdf:type ex:company ; 
+    skos:prefLabel "activision blizzard"@en . 
+ex:3802814557 rdf:type ex:company ; 
+    skos:prefLabel "j.b. hunt transport services"@en . 
+ex:1307138902 rdf:type ex:company ; 
+    skos:prefLabel "constellation brands"@en . 
+ex:1747568068 rdf:type ex:company ; 
+    skos:prefLabel "ncr"@en . 
+ex:94157449 rdf:type ex:company ; 
+    skos:prefLabel "asbury automotive group"@en . 
+ex:2793557367 rdf:type ex:company ; 
+    skos:prefLabel "american financial group"@en . 
+ex:776191794 rdf:type ex:company ; 
+    skos:prefLabel "discovery communications"@en . 
+ex:1949808307 rdf:type ex:company ; 
+    skos:prefLabel "berry global group"@en . 
+ex:4095681642 rdf:type ex:company ; 
+    skos:prefLabel "sanmina"@en . 
+ex:2773141220 rdf:type ex:company ; 
+    skos:prefLabel "calatlantic group"@en . 
+ex:297111647 rdf:type ex:company ; 
+    skos:prefLabel "dr pepper snapple group"@en . 
+ex:3818783095 rdf:type ex:company ; 
+    skos:prefLabel "dillard's"@en . 
+ex:2393213597 rdf:type ex:company ; 
+    skos:prefLabel "hrg group"@en . 
+ex:2326981320 rdf:type ex:company ; 
+    skos:prefLabel "cms energy"@en . 
+ex:2576775146 rdf:type ex:company ; 
+    skos:prefLabel "graybar electric"@en . 
+ex:2015030540 rdf:type ex:company ; 
+    skos:prefLabel "builders firstsource"@en . 
+ex:3931725628 rdf:type ex:company ; 
+    skos:prefLabel "yum brands"@en . 
+ex:943073258 rdf:type ex:company ; 
+    skos:prefLabel "casey's general stores"@en . 
+ex:2327331973 rdf:type ex:company ; 
+    skos:prefLabel "amphenol"@en . 
+ex:1080788196 rdf:type ex:company ; 
+    skos:prefLabel "oshkosh"@en . 
+ex:3081817050 rdf:type ex:company ; 
+    skos:prefLabel "iheartmedia"@en . 
+ex:3090902818 rdf:type ex:company ; 
+    skos:prefLabel "treehouse foods"@en . 
+ex:3690894922 rdf:type ex:company ; 
+    skos:prefLabel "alleghany"@en . 
+ex:1325060319 rdf:type ex:company ; 
+    skos:prefLabel "expeditors international of washington"@en . 
+ex:3522035172 rdf:type ex:company ; 
+    skos:prefLabel "avery dennison"@en . 
+ex:3911112493 rdf:type ex:company ; 
+    skos:prefLabel "ameren"@en . 
+ex:1752946402 rdf:type ex:company ; 
+    skos:prefLabel "hanesbrands"@en . 
+ex:1560938950 rdf:type ex:company ; 
+    skos:prefLabel "motorola solutions"@en . 
+ex:1218840135 rdf:type ex:company ; 
+    skos:prefLabel "st. jude medical"@en . 
+ex:1599671269 rdf:type ex:company ; 
+    skos:prefLabel "harley-davidson"@en . 
+ex:1209887241 rdf:type ex:company ; 
+    skos:prefLabel "regions financial"@en . 
+ex:4210837265 rdf:type ex:company ; 
+    skos:prefLabel "intercontinental exchange"@en . 
+ex:800116995 rdf:type ex:company ; 
+    skos:prefLabel "alaska air group"@en . 
+ex:1154762724 rdf:type ex:company ; 
+    skos:prefLabel "old republic international"@en . 
+ex:1798659212 rdf:type ex:company ; 
+    skos:prefLabel "lam research"@en . 
+ex:771175079 rdf:type ex:company ; 
+    skos:prefLabel "ak steel holding"@en . 
+ex:2691260589 rdf:type ex:company ; 
+    skos:prefLabel "rockwell automation"@en . 
+ex:3833418998 rdf:type ex:company ; 
+    skos:prefLabel "adobe systems"@en . 
+ex:2088142721 rdf:type ex:company ; 
+    skos:prefLabel "avon products"@en . 
+ex:4219901261 rdf:type ex:company ; 
+    skos:prefLabel "terex"@en . 
+ex:1126697383 rdf:type ex:company ; 
+    skos:prefLabel "nvr"@en . 
+ex:706589604 rdf:type ex:company ; 
+    skos:prefLabel "dana holding"@en . 
+ex:450125578 rdf:type ex:company ; 
+    skos:prefLabel "realogy holdings"@en . 
+ex:975526438 rdf:type ex:company ; 
+    skos:prefLabel "american tower"@en . 
+ex:4255569577 rdf:type ex:company ; 
+    skos:prefLabel "packaging corp. of america"@en . 
+ex:2394852924 rdf:type ex:company ; 
+    skos:prefLabel "citizens financial group"@en . 
+ex:1510194181 rdf:type ex:company ; 
+    skos:prefLabel "united rentals"@en . 
+ex:3709842882 rdf:type ex:company ; 
+    skos:prefLabel "clorox"@en . 
+ex:2448543250 rdf:type ex:company ; 
+    skos:prefLabel "genesis healthcare"@en . 
+ex:3264597034 rdf:type ex:company ; 
+    skos:prefLabel "m&t bank corp."@en . 
+ex:39564888 rdf:type ex:company ; 
+    skos:prefLabel "ingredion"@en . 
+ex:1372547114 rdf:type ex:company ; 
+    skos:prefLabel "ugi"@en . 
+ex:3185518309 rdf:type ex:company ; 
+    skos:prefLabel "owens corning"@en . 
+ex:3649955793 rdf:type ex:company ; 
+    skos:prefLabel "s&p global"@en . 
+ex:459526723 rdf:type ex:company ; 
+    skos:prefLabel "markel"@en . 
+ex:1052626248 rdf:type ex:company ; 
+    skos:prefLabel "wyndham worldwide"@en . 
+ex:1189108762 rdf:type ex:company ; 
+    skos:prefLabel "arthur j. gallagher"@en . 
+ex:2627744701 rdf:type ex:company ; 
+    skos:prefLabel "burlington stores"@en . 
+ex:3230954934 rdf:type ex:company ; 
+    skos:prefLabel "first american financial"@en . 
+ex:2688591665 rdf:type ex:company ; 
+    skos:prefLabel "symantec"@en . 
+ex:2261077341 rdf:type ex:company ; 
+    skos:prefLabel "patterson"@en . 
+ex:2423330037 rdf:type ex:company ; 
+    skos:prefLabel "olin"@en . 
+ex:2975775683 rdf:type ex:company ; 
+    skos:prefLabel "netapp"@en . 
+ex:2595652522 rdf:type ex:company ; 
+    skos:prefLabel "raymond james financial"@en . 
+ex:120957534 rdf:type ex:company ; 
+    skos:prefLabel "travelcenters of america"@en . 
+ex:280406558 rdf:type ex:company ; 
+    skos:prefLabel "fiserv"@en . 
+ex:2479312210 rdf:type ex:company ; 
+    skos:prefLabel "host hotels & resorts"@en . 
+ex:992499143 rdf:type ex:company ; 
+    skos:prefLabel "insight enterprises"@en . 
+ex:60302324 rdf:type ex:company ; 
+    skos:prefLabel "mattel"@en . 
+ex:4051544310 rdf:type ex:company ; 
+    skos:prefLabel "amtrust financial services"@en . 
+ex:2556089486 rdf:type ex:company ; 
+    skos:prefLabel "cincinnati financial"@en . 
+ex:1498856497 rdf:type ex:company ; 
+    skos:prefLabel "simon property group"@en . 
+ex:3481221560 rdf:type ex:company ; 
+    skos:prefLabel "western union"@en . 
+ex:2053644688 rdf:type ex:company ; 
+    skos:prefLabel "keycorp"@en . 
+ex:170613486 rdf:type ex:company ; 
+    skos:prefLabel "delek us holdings"@en . 
+ex:2642760356 rdf:type ex:company ; 
+    skos:prefLabel "booz allen hamilton holding"@en . 
+ex:3970872811 rdf:type ex:company ; 
+    skos:prefLabel "chemours"@en . 
+ex:136644483 rdf:type ex:company ; 
+    skos:prefLabel "western & southern financial group"@en . 
+ex:3080160199 rdf:type ex:company ; 
+    skos:prefLabel "celanese"@en . 
+ex:4031053585 rdf:type ex:company ; 
+    skos:prefLabel "windstream holdings"@en . 
+ex:2507046160 rdf:type ex:company ; 
+    skos:prefLabel "seaboard"@en . 
+ex:1387362616 rdf:type ex:company ; 
+    skos:prefLabel "essendant"@en . 
+ex:674039225 rdf:type ex:company ; 
+    skos:prefLabel "apache"@en . 
+ex:3388432288 rdf:type ex:company ; 
+    skos:prefLabel "airgas"@en . 
+ex:1058807784 rdf:type ex:company ; 
+    skos:prefLabel "kelly services"@en . 
+ex:159056206 rdf:type ex:company ; 
+    skos:prefLabel "liberty media"@en . 
+ex:8697138 rdf:type ex:company ; 
+    skos:prefLabel "rockwell collins"@en . 
+ex:2215817698 rdf:type ex:company ; 
+    skos:prefLabel "robert half international"@en . 
+ex:2548715024 rdf:type ex:company ; 
+    skos:prefLabel "ch2m hill"@en . 
+ex:3760905533 rdf:type ex:company ; 
+    skos:prefLabel "big lots"@en . 
+ex:54205558 rdf:type ex:company ; 
+    skos:prefLabel "michaels cos."@en . 
+ex:740673497 rdf:type ex:company ; 
+    skos:prefLabel "toll brothers"@en . 
+ex:211492625 rdf:type ex:company ; 
+    skos:prefLabel "yahoo"@en . 
+ex:910250540 rdf:type ex:company ; 
+    skos:prefLabel "vistra energy"@en . 
+ex:1603330026 rdf:type ex:company ; 
+    skos:prefLabel "capital one financial"@en . 
+ex:1713044168 rdf:type ex:company ; 
+    skos:prefLabel "twenty-first century fox"@en . 
+ex:907431609 rdf:type ex:company ; 
+    skos:prefLabel "usaa"@en . 
+ex:632720735 rdf:type ex:company ; 
+    skos:prefLabel "world fuel services"@en . 
+ex:3568176385 rdf:type ex:company ; 
+    skos:prefLabel "philip morris international"@en . 
+ex:3820034282 rdf:type ex:company ; 
+    skos:prefLabel "deere"@en . 
+ex:3550675753 rdf:type ex:company ; 
+    skos:prefLabel "kraft heinz"@en . 
+ex:2703941333 rdf:type ex:company ; 
+    skos:prefLabel "tech data"@en . 
+ex:536575745 rdf:type ex:company ; 
+    skos:prefLabel "avnet"@en . 
+ex:2799074549 rdf:type ex:company ; 
+    skos:prefLabel "mondelez international"@en . 
+ex:2218841417 rdf:type ex:company ; 
+    skos:prefLabel "macy's"@en . 
+ex:1350355134 rdf:type ex:company ; 
+    skos:prefLabel "abbvie"@en . 
+ex:2962605935 rdf:type ex:company ; 
+    skos:prefLabel "mcdonald's"@en . 
+ex:605384257 rdf:type ex:company ; 
+    skos:prefLabel "dupont"@en . 
+ex:430933314 rdf:type ex:company ; 
+    skos:prefLabel "northrop grumman"@en . 
+ex:24571723 rdf:type ex:company ; 
+    skos:prefLabel "conocophillips"@en . 
+ex:3412369905 rdf:type ex:company ; 
+    skos:prefLabel "raytheon"@en . 
+ex:2193471449 rdf:type ex:company ; 
+    skos:prefLabel "andeavor"@en . 
+ex:2083173753 rdf:type ex:company ; 
+    skos:prefLabel "arrow electronics"@en . 
+ex:2354114404 rdf:type ex:company ; 
+    skos:prefLabel "qualcomm"@en . 
+ex:3534885686 rdf:type ex:company ; 
+    skos:prefLabel "progressive"@en . 
+ex:148273764 rdf:type ex:company ; 
+    skos:prefLabel "duke energy"@en . 
+ex:1219200303 rdf:type ex:company ; 
+    skos:prefLabel "enterprise products partners"@en . 
+ex:2303091629 rdf:type ex:company ; 
+    skos:prefLabel "amgen"@en . 
+ex:684675385 rdf:type ex:company ; 
+    skos:prefLabel "us foods holding"@en . 
+ex:135841842 rdf:type ex:company ; 
+    skos:prefLabel "u.s. bancorp"@en . 
+ex:513977000 rdf:type ex:company ; 
+    skos:prefLabel "aflac"@en . 
+ex:86045599 rdf:type ex:company ; 
+    skos:prefLabel "sears holdings"@en . 
+ex:2064839747 rdf:type ex:company ; 
+    skos:prefLabel "dollar general"@en . 
+ex:431605009 rdf:type ex:company ; 
+    skos:prefLabel "autonation"@en . 
+ex:4238357944 rdf:type ex:company ; 
+    skos:prefLabel "community health systems"@en . 
+ex:615617707 rdf:type ex:company ; 
+    skos:prefLabel "starbucks"@en . 
+ex:1935955403 rdf:type ex:company ; 
+    skos:prefLabel "eli lilly"@en . 
+ex:204731391 rdf:type ex:company ; 
+    skos:prefLabel "international paper"@en . 
+ex:2085633886 rdf:type ex:company ; 
+    skos:prefLabel "tenet healthcare"@en . 
+ex:4218105910 rdf:type ex:company ; 
+    skos:prefLabel "abbott laboratories"@en . 
+ex:1059247039 rdf:type ex:company ; 
+    skos:prefLabel "dollar tree"@en . 
+ex:1480333851 rdf:type ex:company ; 
+    skos:prefLabel "whirlpool"@en . 
+ex:3862464934 rdf:type ex:company ; 
+    skos:prefLabel "southwest airlines"@en . 
+ex:940209783 rdf:type ex:company ; 
+    skos:prefLabel "emerson electric"@en . 
+ex:4266566239 rdf:type ex:company ; 
+    skos:prefLabel "staples"@en . 
+ex:3072723439 rdf:type ex:company ; 
+    skos:prefLabel "plains gp holdings"@en . 
+ex:2044473201 rdf:type ex:company ; 
+    skos:prefLabel "penske automotive group"@en . 
+ex:1113789545 rdf:type ex:company ; 
+    skos:prefLabel "union pacific"@en . 
+ex:2375583276 rdf:type ex:company ; 
+    skos:prefLabel "danaher"@en . 
+ex:2503300611 rdf:type ex:company ; 
+    skos:prefLabel "southern"@en . 
+ex:3389202021 rdf:type ex:company ; 
+    skos:prefLabel "manpowergroup"@en . 
+ex:408835657 rdf:type ex:company ; 
+    skos:prefLabel "bristol-myers squibb"@en . 
+ex:2513330095 rdf:type ex:company ; 
+    skos:prefLabel "altria group"@en . 
+ex:2147747511 rdf:type ex:company ; 
+    skos:prefLabel "fluor"@en . 
+ex:3750588451 rdf:type ex:company ; 
+    skos:prefLabel "kohl's"@en . 
+ex:196399077 rdf:type ex:company ; 
+    skos:prefLabel "lear"@en . 
+ex:23798666 rdf:type ex:company ; 
+    skos:prefLabel "jabil circuit"@en . 
+ex:599013275 rdf:type ex:company ; 
+    skos:prefLabel "hartford financial services group"@en . 
+ex:3635580112 rdf:type ex:company ; 
+    skos:prefLabel "thermo fisher scientific"@en . 
+ex:3483673294 rdf:type ex:company ; 
+    skos:prefLabel "kimberly-clark"@en . 
+ex:2608013878 rdf:type ex:company ; 
+    skos:prefLabel "molina healthcare"@en . 
+ex:3351123253 rdf:type ex:company ; 
+    skos:prefLabel "pg&e corp."@en . 
+ex:787744522 rdf:type ex:company ; 
+    skos:prefLabel "supervalu"@en . 
+ex:196889925 rdf:type ex:company ; 
+    skos:prefLabel "cummins"@en . 
+ex:3179297947 rdf:type ex:company ; 
+    skos:prefLabel "centurylink"@en . 
+ex:1495653772 rdf:type ex:company ; 
+    skos:prefLabel "aecom"@en . 
+ex:471292371 rdf:type ex:company ; 
+    skos:prefLabel "xerox"@en . 
+ex:3467102167 rdf:type ex:company ; 
+    skos:prefLabel "marriott international"@en . 
+ex:3638207221 rdf:type ex:company ; 
+    skos:prefLabel "paccar"@en . 
+ex:2167446090 rdf:type ex:company ; 
+    skos:prefLabel "general mills"@en . 
+ex:1842350704 rdf:type ex:company ; 
+    skos:prefLabel "pnc financial services group"@en . 
+ex:4047800391 rdf:type ex:company ; 
+    skos:prefLabel "american electric power"@en . 
+ex:3700585722 rdf:type ex:company ; 
+    skos:prefLabel "icahn enterprises"@en . 
+ex:3539616506 rdf:type ex:company ; 
+    skos:prefLabel "nucor"@en . 
+ex:1954033840 rdf:type ex:company ; 
+    skos:prefLabel "nextera energy"@en . 
+ex:3961173738 rdf:type ex:company ; 
+    skos:prefLabel "performance food group"@en . 
+ex:2731256331 rdf:type ex:company ; 
+    skos:prefLabel "pbf energy"@en . 
+ex:4253520797 rdf:type ex:company ; 
+    skos:prefLabel "halliburton"@en . 
+ex:3931273367 rdf:type ex:company ; 
+    skos:prefLabel "carmax"@en . 
+ex:1799969728 rdf:type ex:company ; 
+    skos:prefLabel "freeport-mcmoran"@en . 
+ex:2460096319 rdf:type ex:company ; 
+    skos:prefLabel "whole foods market"@en . 
+ex:304365242 rdf:type ex:company ; 
+    skos:prefLabel "bank of new york mellon corp."@en . 
+ex:2565042451 rdf:type ex:company ; 
+    skos:prefLabel "gap"@en . 
+ex:683932178 rdf:type ex:company ; 
+    skos:prefLabel "omnicom group"@en . 
+ex:1918086086 rdf:type ex:company ; 
+    skos:prefLabel "genuine parts"@en . 
+ex:636109068 rdf:type ex:company ; 
+    skos:prefLabel "davita healthcare partners"@en . 
+ex:891001978 rdf:type ex:company ; 
+    skos:prefLabel "colgate-palmolive"@en . 
+ex:2185411962 rdf:type ex:company ; 
+    skos:prefLabel "ppg industries"@en . 
+ex:3555705779 rdf:type ex:company ; 
+    skos:prefLabel "goodyear tire & rubber"@en . 
+ex:1521947763 rdf:type ex:company ; 
+    skos:prefLabel "synchrony financial"@en . 
+ex:514634391 rdf:type ex:company ; 
+    skos:prefLabel "dish network"@en . 
+ex:1580278886 rdf:type ex:company ; 
+    skos:prefLabel "visa"@en . 
+ex:411585829 rdf:type ex:company ; 
+    skos:prefLabel "nordstrom"@en . 
+ex:1573619178 rdf:type ex:company ; 
+    skos:prefLabel "intl fcstone"@en . 
+ex:623976923 rdf:type ex:company ; 
+    skos:prefLabel "westrock"@en . 
+ex:3218802607 rdf:type ex:company ; 
+    skos:prefLabel "xpo logistics"@en . 
+ex:2726304932 rdf:type ex:company ; 
+    skos:prefLabel "aramark"@en . 
+ex:378278429 rdf:type ex:company ; 
+    skos:prefLabel "cbs"@en . 
+ex:3248890498 rdf:type ex:company ; 
+    skos:prefLabel "aes"@en . 
+ex:1082391458 rdf:type ex:company ; 
+    skos:prefLabel "wellcare health plans"@en . 
+ex:527014769 rdf:type ex:company ; 
+    skos:prefLabel "firstenergy"@en . 
+ex:111494861 rdf:type ex:company ; 
+    skos:prefLabel "conagra foods"@en . 
+ex:839856838 rdf:type ex:company ; 
+    skos:prefLabel "synnex"@en . 
+ex:1053019803 rdf:type ex:company ; 
+    skos:prefLabel "cdw"@en .

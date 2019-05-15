@@ -1,0 +1,10 @@
+-mode
+local
+-input_file_path
+data/skos/companies.ttl
+-input_file_type
+rdf
+-output_collections
+companies,loadSkos,input,http://marklogic.com/semantics#default-graph
+-output_permissions
+rest-reader,read,rest-writer,update

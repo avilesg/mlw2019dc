@@ -1,0 +1,51 @@
+#{
+#  "username"="Team_4_user",
+#  "password"="Team_4_user*",
+#  "Manage"="http://mlaas-ICAlb-PMDGRTKWTR5I-1910187753.us-west-2.elb.amazonaws.com:8002",
+#  "REST"="http://mlaas-ICAlb-PMDGRTKWTR5I-1910187753.us-west-2.elb.amazonaws.com:8004",
+#  "Ingest"="http://mlaas-ICAlb-PMDGRTKWTR5I-1910187753.us-west-2.elb.amazonaws.com:8005",
+#  "Curation Staging REST"="http://mlaas-ICAlb-PMDGRTKWTR5I-1910187753.us-west-2.elb.amazonaws.com:8010",
+#  "Curation Final REST"="http://mlaas-ICAlb-PMDGRTKWTR5I-1910187753.us-west-2.elb.amazonaws.com:8011",
+#  "Jobs"="http://mlaas-ICAlb-PMDGRTKWTR5I-1910187753.us-west-2.elb.amazonaws.com:8013",
+#  "Analytics"="http://mlaas-AAlb-18QR0I8WFJTGP-2078992700.us-west-2.elb.amazonaws.com:8008",
+#  "Analytics REST"="http://mlaas-AAlb-18QR0I8WFJTGP-2078992700.us-west-2.elb.amazonaws.com:8011",
+#  "Operations"="http://mlaas-OAlb-1D4BJ2L4RJ0NL-1098561914.us-west-2.elb.amazonaws.com:8009",
+#  "Operations REST"="http://mlaas-OAlb-1D4BJ2L4RJ0NL-1098561914.us-west-2.elb.amazonaws.com:8011",
+#  "ODBC"="http://mlaas-1-Nlb-1O6MKOA4YTRBJ-2162e2bd9777ed0e.elb.us-west-2.amazonaws.com:5432",
+#  "Query Console"="http://mlaas-ICAlb-PMDGRTKWTR5I-1910187753.us-west-2.elb.amazonaws.com:8002/qconsole",
+#}
+
+mlHost=mlaas-ICAlb-PMDGRTKWTR5I-1910187753.us-west-2.elb.amazonaws.com
+
+mlUsername=Team_4_user
+mlPassword=Team_4_user*
+mlManageUsername=Team_4_user
+mlManagePassword=Team_4_user*
+
+# ports for App Services and Manage application servers
+mlAppServicesPort=8002
+mlManagePort=8002
+
+mlStagingPort=8010
+mlStagingDbName=data-hub-STAGING
+mlStagingForestsPerHost=1
+
+mlFinalAppserverName=data-hub-ADMIN
+mlFinalPort=8011
+mlFinalDbName=data-hub-FINAL
+mlFinalForestsPerHost=1
+
+mlJobPort=8013
+mlJobDbName=data-hub-JOBS
+mlJobForestsPerHost=1
+
+mlModulesDbName=data-hub-MODULES
+mlStagingTriggersDbName=data-hub-staging-TRIGGERS
+mlStagingSchemasDbName=data-hub-staging-SCHEMAS
+mlFinalTriggersDbName=data-hub-final-TRIGGERS
+mlFinalSchemasDbName=data-hub-final-SCHEMAS
+
+mlModulePermissions=flowDeveloper,read,flowDeveloper,execute,flowDeveloper,insert,flowOperator,read,flowOperator,execute,flowOperator,insert
+
+mlIsProvisionedEnvironment=true
+mlIsHostLoadBalancer=true

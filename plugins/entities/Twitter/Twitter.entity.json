@@ -1,0 +1,16 @@
+{
+  "info" : {
+    "title" : "Twitter",
+    "version" : "0.0.1"
+  },
+  "definitions" : {
+    "Twitter" : {
+      "required" : [ ],
+      "pii" : [ ],
+      "elementRangeIndex" : [ ],
+      "rangeIndex" : [ ],
+      "wordLexicon" : [ ],
+      "properties" : { }
+    }
+  }
+}

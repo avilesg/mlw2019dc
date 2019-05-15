@@ -1,0 +1,21 @@
+{
+  "info" : {
+    "title" : "Company",
+    "version" : "0.0.1"
+  },
+  "definitions" : {
+    "Company" : {
+      "required" : [ ],
+      "pii" : [ ],
+      "elementRangeIndex" : [ "MARGIN" ],
+      "rangeIndex" : [ ],
+      "wordLexicon" : [ ],
+      "properties" : {
+        "MARGIN" : {
+          "datatype" : "decimal",
+          "description" : "margin = profit / revenue"
+        }
+      }
+    }
+  }
+}

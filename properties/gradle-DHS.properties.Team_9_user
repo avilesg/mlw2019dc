@@ -1,0 +1,51 @@
+#{
+#  "username"="Team_9_user",
+#  "password"="Team_9_user*",
+#  "Manage"="http://mlaas-ICAlb-4X22L5R6RETD-901915890.us-west-2.elb.amazonaws.com:8002",
+#  "REST"="http://mlaas-ICAlb-4X22L5R6RETD-901915890.us-west-2.elb.amazonaws.com:8004",
+#  "Ingest"="http://mlaas-ICAlb-4X22L5R6RETD-901915890.us-west-2.elb.amazonaws.com:8005",
+#  "Curation Staging REST"="http://mlaas-ICAlb-4X22L5R6RETD-901915890.us-west-2.elb.amazonaws.com:8010",
+#  "Curation Final REST"="http://mlaas-ICAlb-4X22L5R6RETD-901915890.us-west-2.elb.amazonaws.com:8011",
+#  "Jobs"="http://mlaas-ICAlb-4X22L5R6RETD-901915890.us-west-2.elb.amazonaws.com:8013",
+#  "Analytics"="http://mlaas-AAlb-SY98YCXWNLBA-1908386100.us-west-2.elb.amazonaws.com:8008",
+#  "Analytics REST"="http://mlaas-AAlb-SY98YCXWNLBA-1908386100.us-west-2.elb.amazonaws.com:8011",
+#  "Operations"="http://mlaas-OAlb-Y94AEPZYJ7TO-71821512.us-west-2.elb.amazonaws.com:8009",
+#  "Operations REST"="http://mlaas-OAlb-Y94AEPZYJ7TO-71821512.us-west-2.elb.amazonaws.com:8011",
+#  "ODBC"="http://mlaas-6-Nlb-1LMSX37ELMD0L-872e47bc60766740.elb.us-west-2.amazonaws.com:5432",
+#  "Query Console"="http://mlaas-ICAlb-4X22L5R6RETD-901915890.us-west-2.elb.amazonaws.com:8002/qconsole",
+#}
+
+mlHost=mlaas-ICAlb-4X22L5R6RETD-901915890.us-west-2.elb.amazonaws.com
+
+mlUsername=Team_9_user
+mlPassword=Team_9_user*
+mlManageUsername=Team_9_user
+mlManagePassword=Team_9_user*
+
+# ports for App Services and Manage application servers
+mlAppServicesPort=8002
+mlManagePort=8002
+
+mlStagingPort=8010
+mlStagingDbName=data-hub-STAGING
+mlStagingForestsPerHost=1
+
+mlFinalAppserverName=data-hub-ADMIN
+mlFinalPort=8011
+mlFinalDbName=data-hub-FINAL
+mlFinalForestsPerHost=1
+
+mlJobPort=8013
+mlJobDbName=data-hub-JOBS
+mlJobForestsPerHost=1
+
+mlModulesDbName=data-hub-MODULES
+mlStagingTriggersDbName=data-hub-staging-TRIGGERS
+mlStagingSchemasDbName=data-hub-staging-SCHEMAS
+mlFinalTriggersDbName=data-hub-final-TRIGGERS
+mlFinalSchemasDbName=data-hub-final-SCHEMAS
+
+mlModulePermissions=flowDeveloper,read,flowDeveloper,execute,flowDeveloper,insert,flowOperator,read,flowOperator,execute,flowOperator,insert
+
+mlIsProvisionedEnvironment=true
+mlIsHostLoadBalancer=true

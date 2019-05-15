@@ -1,0 +1,103 @@
+<export><workspace name="Sentiment Analysis"><query name="Build a Request" focus="true" listorder="1" taborder="1" active="true" database="6403294966185432694" server="6750066418575470356" database-name="Documents" server-name="App-Services" mode="javascript">/*
+  Before we can send a request to MeaningCloud's REST API we need to ensure the request if properly structured.
+  And because REST services are sent over HTTP via URLs, this means we need to:
+    1. Reviewing the MeaningCloud API documentation to understand the structure of the URL
+    2. Encode the URL properly for HTTP (special characters for example aren't valid in URLs) 
+  
+  In this example you'll see how to structure a request and encode it.
+  
+  NOTE: You will need to creat your own API key and update this code to use it.
+    https://loud.com/developer/login
+*/
+
+'use strict';
+
+// For a simple first example we will store a simple tweet in a variable.
+const tweet = 'My new Nike shoes are great, I love the color and the fit is fantastic!!';
+
+// But this information is going to be part of the URL that we are building for our request.
+// Ccertain characters are invalid in URLs, so we need to encode it properly. A MarkLogic function makes this easy.
+const urlEncodedTweet = xdmp.urlEncode(tweet);
+
+// this is the MeaningCloud service for sentiment analysis
+const endpoint = 'http://api.meaningcloud.com/sentiment-2.1';
+
+// to use the MeaningCloud service you need to insert your API key here
+const apiKey = 'INSERT YOUR API KEY';
+
+// the MeaningCloud service needs you to provide some additional information to define what you want returned
+const outputFormat = 'json';
+const language = 'en';
+
+// now let's build a URL that represents the request in the format that the MeaningCloud API will accept
+const request = fn.concat(endpoint, '?key=', apiKey, '&amp;of=', outputFormat, '&amp;txt=', urlEncodedTweet, '&amp;lang=', language);
+
+// and here is the complete URL
+request;</query><query name="Send a Request" focus="false" listorder="2" taborder="2" active="true" database="6403294966185432694" server="6750066418575470356" database-name="Documents" server-name="App-Services" mode="javascript">/*
+  This example builds on the prior example.
+  Now that you can construct the URL, to use the REST service, you need to send the request via HTTP.
+  You will then get a response sent back to you via HTTP, which can then be processed and used.
+  
+  The response will have two parts:
+    1. The HTTP status (success, errors, etc)
+    2. On success, the second part will contain the actual response data from the API (the sentiment analysis).
+    
+  NOTE: Remember to update the API key variable with your specific API key
+*/
+
+'use strict';
+
+// this is the same as in the prior example
+const tweet = 'My new Nike shoes are great, I love the color and the fit is fantastic!!';
+const urlEncodedTweet = xdmp.urlEncode(tweet);
+const endpoint = 'http://api.meaningcloud.com/sentiment-2.1';
+const apiKey = 'INSERT YOUR API KEY';
+const outputFormat = 'json';
+const language = 'en';
+const request = fn.concat(endpoint, '?key=', apiKey, '&amp;of=', outputFormat, '&amp;txt=', urlEncodedTweet, '&amp;lang=', language);
+
+// this is new...here we are using a MarkLogic function to send a POST HTTP request
+const response = xdmp.httpPost(request);
+
+response;</query><query name="Process the Response" focus="false" listorder="3" taborder="3" active="true" database="6403294966185432694" server="6750066418575470356" database-name="Documents" server-name="App-Services" mode="javascript">/*
+  The response that comes back from the MeaningCloud API contains a lot of data!
+  To achieve our goals, we don't need all of it. All we really want to know is the overall sentiment.
+  This includes capturing two properties from the response:
+    'score_tag' and 'confidence'
+  
+  In this examlpe we process the response and access just the data we need.   
+    NOTE: Remember to update the API key variable with your specific API key
+*/
+
+'use strict';
+
+// this is the same as in the prior example
+const tweet = 'My new Nike shoes are great, I love the color and the fit is fantastic!!';
+const urlEncodedTweet = xdmp.urlEncode(tweet);
+const endpoint = 'http://api.meaningcloud.com/sentiment-2.1';
+const apiKey = 'INSERT YOUR API KEY'';
+const outputFormat = 'json';
+const language = 'en';
+const request = fn.concat(endpoint, '?key=', apiKey, '&amp;of=', outputFormat, '&amp;txt=', urlEncodedTweet, '&amp;lang=', language);
+
+const response = xdmp.httpPost(request);
+
+/* 
+  This part is new.
+  We're drilling into the response data to access just the information we need. Here is the logic:
+    Get just the second part of the response using fn.subsequence
+    Then drill into that part of the response to get the two desired properties
+*/
+
+const secondPartResponse = fn.subsequence(response, 2).toObject()[0];
+
+const sentimentScore = secondPartResponse.root['score_tag'];
+const sentimentConfidence = secondPartResponse.root.confidence;
+
+const resultSummary = 
+  { 
+    'sentimentScore': sentimentScore,
+    'sentimentConfidence': Number(sentimentConfidence)
+  };
+
+resultSummary;</query></workspace></export>
