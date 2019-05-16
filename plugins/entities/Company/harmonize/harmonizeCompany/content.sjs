@@ -35,22 +35,42 @@ function extractInstanceCompany(source) {
   // the original source documents - original data is preserved in the attachments
   const attachments = source;
   
-  // get the PROFIT property value from the document. Make it a number for future calculation.
-	const profit = parseFloat(source.PROFIT);
+
+  const title = source.title;
+  let profit;
+  let revenues;
+  let employees;
+  let profitMargin = null;
   
-  // get the  REVENUES property value from the document. Make it a number for future calculation.
-  const revenues = parseFloat(source.REVENUES);
+  const match = fn.head(cts.search(cts.jsonPropertyValueQuery("NAME", title, "case-insensitive")))
+  if (match !== null) {
+    const matchInst = match.root.envelope.instance;
   
-  // calculate the profit margin
-  const profitMargin = xs.decimal((profit / revenues) * 100);
-  
-  // return the instance object
-  return {
+    profit = matchInst.PROFIT;
+    revenues = matchInst.REVENUES;
+    employees = matchInst.EMPLOYEES;
+    // calculate the profit margin
+    if (profit && !isNaN(profit) && revenues && !isNaN(revenues) && revenues !== 0) { 
+      profitMargin = xs.decimal((profit / revenues) * 100);
+    };
+  }
+
+  let instance = {
     '$attachments': attachments,
     '$type': 'company',
     '$version': '0.0.1',
-    'MARGIN': round(profitMargin, 2)
-  }
+    'name': title,
+    'profit': profit,
+    'revenues': revenues,
+    'employees': employees
+  };
+
+  // if (!isNaN(profitMargin)) {
+  //   instance.MARGIN = round(profitMargin, 2);
+  // };
+  
+  // return the instance object
+  return instance;
 };
   
 
