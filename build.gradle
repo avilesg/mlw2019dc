@@ -58,6 +58,21 @@ task mlcpImport(
     ]
 }
 
+task mlcpImportFinal(
+    type: com.marklogic.gradle.task.MlcpTask
+) {
+    description 'Run MLCP. Pass option file.'
+    classpath = configurations.mlcp
+    command = "IMPORT"
+    host = mlHost
+    port = mlFinalPort.toInteger()
+    args = [
+      '-options_file', mlcpOptionsFile,
+      '-username', mlUsername,
+      '-password', mlPassword
+    ]
+}
+
 task createDictionaries(type: org._10ne.gradle.rest.RestTask) {
   httpMethod = 'put'
   uri = 'http://' + mlHost + ':' + mlStagingPort + '/v1/resources/createDictionary'

@@ -1,8 +1,4 @@
 'use strict';
-
-var key = "JuS8gKrdMMuqzUbxgdV6f1EFF";
-var secret = "qKfvxr5a5VADgq69X1E3OiNTSViQsH23TvNPMVLR0leDEUlYsp";
-
 // Gets array of tweets for hastag using auth token
 function getTweets(hashtag, token) {
     var uri = "https://api.twitter.com/1.1/search/tweets.json?q=" + encodeURI(hashtag) + "&amp;include_entities=true&amp;tweet_mode=extended";
@@ -29,45 +25,12 @@ function getToken(key, secret) {
 }
 
 
+ var key = "JuS8gKrdMMuqzUbxgdV6f1EFF";
+ var secret = "qKfvxr5a5VADgq69X1E3OiNTSViQsH23TvNPMVLR0leDEUlYsp";
+    var token = getToken(key, secret);
+    var results = new Array();
+ for (var tweet of getTweets("Omission IPA", token)) {
+   results.push(tweet)
+ }
+   results
    
-
-
-
-function get(context, params) {
-  // return zero or more document nodes
-  let title = params.title;
-
-  var token = getToken(key, secret);
-  var results = new Array();
-for (var tweet of getTweets(title, token)) {
- results.push(tweet)
-}
- results
-
-
-  let company = cts.search(
-    cts.jsonPropertyValueQuery("name", title, "case-insensitive")
-  );
-
-  company = fn.head(company).toObject();
-  company.tweets = results;
-
-  return company;
-};
-
-function post(context, params, input) {
-  // return zero or more document nodes
-};
-
-function put(context, params, input) {
-  // return at most one document node
-};
-
-function deleteFunction(context, params) {
-  // return at most one document node
-};
-
-exports.GET = get;
-exports.POST = post;
-exports.PUT = put;
-exports.DELETE = deleteFunction;
