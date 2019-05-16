@@ -1008,3 +1008,5 @@ ex:839856838 rdf:type ex:company ;
     skos:prefLabel "synnex"@en . 
 ex:1053019803 rdf:type ex:company ; 
     skos:prefLabel "cdw"@en .
+ex:9000000001 rdf:type ex:company ; 
+    skos:prefLabel "omission brewing co."@en .

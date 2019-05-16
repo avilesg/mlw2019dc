@@ -1318,3 +1318,19 @@ ex:p4039931149  skos:prefLabel      "amp energy drink "@en ;
 ex:p6829516289  skos:prefLabel      "dole juices and juice drinks (license) "@en ;
                 ex:madeby       ex:3486537284 ;
                 a               ex:product .
+
+ex:p8000000001  skos:prefLabel      "ultimate light golden ale"@en ;
+                ex:madeby       ex:9000000001 ;
+                a               ex:product .
+
+ex:p8000000002  skos:prefLabel      "ipa bold and hoppy"@en ;
+                ex:madeby       ex:9000000001 ;
+                a               ex:product .
+
+ex:p8000000003  skos:prefLabel      "pale ale hoppy and easy-drinking"@en ;
+                ex:madeby       ex:9000000001 ;
+                a               ex:product .
+
+ex:p8000000004  skos:prefLabel      "lager bright and crisp"@en ;
+                ex:madeby       ex:9000000001 ;
+                a               ex:product .
